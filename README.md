@@ -7,7 +7,7 @@
 
 **NEGI Framework** is an open-source Python workflow accompanying the manuscript:
 
-> **A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening Energy Trade-Offs in Desalination-Dependent Cities**
+> **A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening–Energy Trade-Offs in Desalination-Dependent Cities**
 
 ![Graphical Abstract](figures/graphical_abstract.jpg)
 
