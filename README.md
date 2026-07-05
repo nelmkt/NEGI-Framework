@@ -9,7 +9,7 @@
 
 > **A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening–Energy Trade-Offs in Desalination-Dependent Cities**
 
-![Graphical Abstract](figures/graphical_abstract.jpg)
+![Graphical Abstract](figures/graphica1_abstract.jpg)
 
 The framework evaluates the energy implications of urban greening in desalination-dependent cities by integrating satellite remote sensing, machine learning, and comparative energy assessment. Using **Jeddah, Saudi Arabia**, as a case study, the workflow combines Landsat 8 observations, XGBoost regression, and scenario-based analysis to identify vegetation levels that maximize relative net energy performance.
 
