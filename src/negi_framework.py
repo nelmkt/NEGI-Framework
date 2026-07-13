@@ -5,7 +5,12 @@ import matplotlib.pyplot as plt
 import sklearn
 
 from xgboost import XGBRegressor
-from sklearn.model_selection import train_test_split, cross_val_score, KFold
+from sklearn.model_selection import (
+    train_test_split,
+    cross_val_score,
+    KFold,
+    GridSearchCV
+)
 from sklearn.metrics import mean_squared_error, r2_score
 
 os.makedirs("data", exist_ok=True)
@@ -32,15 +37,40 @@ X_train, X_test, y_train, y_test = train_test_split(
     random_state=42
 )
 
-model = XGBRegressor(
+param_grid = {
+    "n_estimators": [100, 200, 300],
+    "max_depth": [3, 5, 7],
+    "learning_rate": [0.01, 0.05, 0.1]
+}
+
+base_model = XGBRegressor(
     objective="reg:squarederror",
-    n_estimators=200,
-    max_depth=5,
-    learning_rate=0.1,
     random_state=42
 )
 
-model.fit(X_train, y_train)
+grid_search = GridSearchCV(
+    estimator=base_model,
+    param_grid=param_grid,
+    scoring="r2",
+    cv=5,
+    n_jobs=-1
+)
+
+grid_search.fit(X_train, y_train)
+
+print("\nBest Parameters:")
+print(grid_search.best_params_)
+
+print("Best Mean CV R²:")
+print(round(grid_search.best_score_, 3))
+
+model = grid_search.best_estimator_
+
+grid_results = pd.DataFrame(grid_search.cv_results_)
+grid_results.to_csv(
+    "data/Grid_Search_Results.csv",
+    index=False
+)
 
 pred = model.predict(X_test)
 
@@ -87,10 +117,7 @@ plt.savefig(
 plt.show()
 
 
-# FIGURES SECTION
-
-
-# NDVI Distribution Figure
+#NDVI Distribution Figure
 plt.figure()
 plt.hist(df["NDVI"], bins=40)
 plt.title("NDVI Distribution in Jeddah")
@@ -99,7 +126,7 @@ plt.ylabel("Frequency")
 plt.savefig("plots/Figure1_NDVI_Distribution.png", dpi=300, bbox_inches="tight")
 plt.show()
 
-# NDBI Distribution Figure
+#NDBI Distribution Figure
 plt.figure()
 plt.hist(df["NDBI"], bins=40)
 plt.title("NDBI Distribution in Jeddah")
@@ -130,7 +157,7 @@ plt.ylabel("Predicted LST (°C)")
 plt.savefig("plots/Figure4_Actual_vs_Predicted.png", dpi=300, bbox_inches="tight")
 plt.show()
 
-# Residual Analysis Figure
+#Residual Analysis Figure
 residuals = y_test - pred
 
 plt.figure()
@@ -199,7 +226,7 @@ desalination_energy = irrigation_index * desal_energy_intensity
 alpha = 10  # empirical scaling coefficient
 cooling_energy_equivalent = delta_T * alpha
 
-# Compute Net Energy Gain Index (NEGI) Figure
+#Compute Net Energy Gain Index (NEGI) Figure
 
 NEGI = cooling_energy_equivalent - desalination_energy
 
@@ -215,7 +242,7 @@ scenario_results = pd.DataFrame({
 
 scenario_results.to_csv("data/Scenario_Results.csv", index=False)
 
-# Cooling Benefit vs Energy Cost Figure
+#Cooling Benefit vs Energy Cost Figure
 plt.figure()
 plt.plot(
     scenarios * 100,
@@ -240,7 +267,7 @@ plt.savefig(
 )
 plt.show()
 
-# NEGI Curve Figure
+#NEGI Curve Figure
 plt.figure()
 plt.plot(scenarios * 100, NEGI, marker="o")
 plt.axhline(0, linestyle="--")
@@ -315,7 +342,7 @@ print(sensitivity_df)
 
 sensitivity_df.to_csv("data/Sensitivity_Analysis.csv", index=False)
 
-# Sensitivity Analysis Figure
+#Sensitivity Analysis Figure
 plt.figure(figsize=(8, 5))
 
 for alpha_test in alpha_values:
