@@ -13,7 +13,7 @@ This repository accompanies the manuscript:
 
 > **A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening–Energy Trade-Offs in Desalination-Dependent Cities**
 
-![Graphical Abstract](figures/graphica1_abstract.jpg)
+![Graphical Abstract](figures/graphical_abstract.jpg)
 
 The NEGI Framework integrates Google Earth Engine, satellite remote sensing, XGBoost machine learning, and comparative energy assessment to evaluate urban greening strategies in desalination-dependent cities. The repository contains the complete preprocessing scripts, Python implementation, processed datasets, and reproducible workflow used in the accompanying study.
 
@@ -74,7 +74,7 @@ NEGI-Framework/
 │   └── Sensitivity_Analysis.csv
 │
 ├── figures/
-│   └── graphica1_abstract.jpg
+│   └── graphical_abstract.jpg
 │
 ├── README.md
 ├── requirements.txt
