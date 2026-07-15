@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-An open-source implementation of the **Net Energy Gain Index (NEGI)** framework for evaluating urban greening under coupled water–energy–climate constraints.
+An open-source implementation of the Net Energy Gain Index (NEGI) framework for evaluating urban greening under coupled water–energy–climate constraints.
 
 ---
 
@@ -21,10 +21,10 @@ The NEGI Framework integrates Google Earth Engine, satellite remote sensing, XGB
 
 # Key Results
 
-- XGBoost surrogate model achieved **R² = 0.817** (RMSE = **3.64 °C**).
-- Introduces the **Net Energy Gain Index (NEGI)** for comparative urban greening assessment.
-- Identifies a comparative energy-optimal vegetation threshold of approximately **5% FVC**.
-- Identifies a comparative energy-neutral threshold of approximately **15–20% FVC**.
+- XGBoost surrogate model achieved R² = 0.817 (RMSE = 3.64 °C).
+- Introduces the Net Energy Gain Index (NEGI) for comparative urban greening assessment.
+- Identifies a comparative energy-optimal vegetation threshold of approximately 5% FVC.
+- Identifies a comparative energy-neutral threshold of approximately 15–20% FVC.
 - Demonstrates robust vegetation thresholds across all evaluated sensitivity scenarios.
 
 ---
@@ -74,7 +74,7 @@ NEGI-Framework/
 │   └── Sensitivity_Analysis.csv
 │
 ├── figures/
-│   └── graphical_abstract.jpg
+│   └── graphica1_abstract.jpg
 │
 ├── README.md
 ├── requirements.txt
@@ -87,7 +87,7 @@ NEGI-Framework/
 
 # Installation
 
-The workflow requires **Python 3.12** (or later).
+The workflow requires Python 3.12 (or later).
 
 Install the required packages using
 
@@ -136,9 +136,9 @@ Running the workflow automatically generates:
 
 # Data
 
-Satellite observations were derived from **Landsat 8** imagery processed using **Google Earth Engine**.
+Satellite observations were derived from Landsat 8 imagery processed using Google Earth Engine.
 
-The processed dataset contains approximately **15,000** randomly sampled observations, including:
+The processed dataset contains approximately 15,000 randomly sampled observations, including:
 
 - Normalized Difference Vegetation Index (NDVI)
 - Normalized Difference Built-up Index (NDBI)
@@ -168,7 +168,7 @@ If this repository contributes to your research, please cite:
 
 # License
 
-This project is released under the **MIT License**.
+This project is released under the MIT License.
 
 See the `LICENSE` file for details.
 
