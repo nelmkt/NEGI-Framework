@@ -73,7 +73,7 @@ NEGI-Framework/
 
 # Installation
 
-The workflow requires **Python 3.10** (or later).
+The workflow requires Python 3.10 (or later).
 
 Install all required packages using
 
@@ -121,9 +121,9 @@ Running the workflow automatically generates:
 
 # Data
 
-Satellite observations were derived from **Landsat 8** imagery processed using **Google Earth Engine**.
+Satellite observations were derived from Landsat 8 imagery processed using Google Earth Engine.
 
-The processed dataset contains approximately **15,000 randomly sampled observations**, including:
+The processed dataset contains approximately 15,000 randomly sampled observations, including:
 
 * Normalized Difference Vegetation Index (NDVI)
 * Normalized Difference Built-up Index (NDBI)
@@ -143,7 +143,7 @@ Running the supplied workflow with the included processed dataset reproduces the
 
 If you use this repository, please cite this software repository and the accompanying journal article.
 
-GitHub will automatically generate a citation from the included **CITATION.cff** file.
+GitHub will automatically generate a citation from the included CITATION.cff file.
 
 ---
 
@@ -151,7 +151,7 @@ GitHub will automatically generate a citation from the included **CITATION.cff**
 
 This project is released under the **MIT License**.
 
-See the **LICENSE** file for details.
+See the LICENSE file for details.
 
 ---
 
