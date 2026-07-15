@@ -184,8 +184,8 @@ print(df.columns)
 desal_energy_intensity = 4.0  # kWh/m³ (Ghaffour et al., 2013)
 
 
-ndvi_min = df["NDVI"].min()
-ndvi_max = df["NDVI"].max()
+ndvi_min = df["NDVI"].quantile(0.05)
+ndvi_max = df["NDVI"].quantile(0.95)
 
 df["FVC"] = (df["NDVI"] - ndvi_min) / (ndvi_max - ndvi_min)
 df["FVC"] = df["FVC"].clip(0, 1)
