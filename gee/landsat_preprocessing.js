@@ -5,11 +5,10 @@ function maskL8(image) {
   var qa = image.select('QA_PIXEL');
 
   var mask = qa.bitwiseAnd(1 << 3).eq(0)
-      .and(qa.bitwiseAnd(1 << 4).eq(0))   
-      .and(qa.bitwiseAnd(1 << 5).eq(0));  
+      .and(qa.bitwiseAnd(1 << 4).eq(0))
+      .and(qa.bitwiseAnd(1 << 5).eq(0));
 
   return image.updateMask(mask);
-
 }
 
 function applyScaleFactors(image) {
@@ -25,7 +24,6 @@ function applyScaleFactors(image) {
   return image
       .addBands(opticalBands, null, true)
       .addBands(thermalBand, null, true);
-
 }
 
 var image = ee.ImageCollection("LANDSAT/LC08/C02/T1_L2")
@@ -50,53 +48,47 @@ var lst = image.select("ST_B10")
 
 var landMask = ndwi.lt(0);
 
+var elevation = ee.Image("USGS/SRTMGL1_003")
+    .rename("Elevation");
+
+var latlon = ee.Image.pixelLonLat();
+
+var longitude = latlon.select("longitude")
+    .rename("Longitude");
+
+var latitude = latlon.select("latitude")
+    .rename("Latitude");
+
 var stack = ndvi
     .addBands(ndbi)
     .addBands(lst)
+    .addBands(elevation)
+    .addBands(latitude)
+    .addBands(longitude)
     .updateMask(landMask);
 
-Map.centerObject(jeddah, 10);
+Map.centerObject(jeddah,10);
 
-Map.addLayer(
-    ndvi,
-    {min: -0.2, max: 0.6},
-    "NDVI"
-);
+Map.addLayer(ndvi,{min:-0.2,max:0.6},"NDVI");
 
-Map.addLayer(
-    ndbi,
-    {min: -0.5, max: 0.5},
-    "NDBI"
-);
+Map.addLayer(ndbi,{min:-0.5,max:0.5},"NDBI");
 
-Map.addLayer(
-    lst,
-    {min: 20, max: 55},
-    "LST (°C)"
-);
+Map.addLayer(lst,{min:20,max:55},"LST");
 
-Map.addLayer(
-    ndwi,
-    {min: -1, max: 1},
-    "NDWI"
-);
+Map.addLayer(elevation,{min:0,max:200},"Elevation");
 
-Map.addLayer(
-    landMask.selfMask(),
-    {palette: ['green']},
-    "Land Mask"
-);
+Map.addLayer(landMask.selfMask(),{palette:["green"]},"Land Mask");
 
 var samples = stack.sample({
-    region: jeddah,
-    scale: 30,
-    numPixels: 15000,
-    seed: 42,
-    geometries: true
+    region:jeddah,
+    scale:30,
+    numPixels:15000,
+    seed:42,
+    geometries:true
 });
 
 Export.table.toDrive({
-    collection: samples,
-    description: "Jeddah_NDVI_NDBI_LST_dataset_Masked",
-    fileFormat: "CSV"
+    collection:samples,
+    description:"Jeddah_NDVI_NDBI_LST_dataset_Masked",
+    fileFormat:"CSV"
 });
