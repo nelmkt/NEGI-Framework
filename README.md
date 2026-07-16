@@ -69,12 +69,16 @@ NEGI-Framework/
 │   └── landsat_preprocessing.js
 │
 ├── data/
-│   ├── Jeddah_NDVI_NDBI_LST_dataset.csv
+│   ├── Jeddah_NDVI_NDBI_LST_dataset_Masked.csv
 │   ├── Scenario_Results.csv
 │   └── Sensitivity_Analysis.csv
 │
-├── figures/
+├── plots/
 │   └── graphical_abstract.jpg
+│   ├── Scenario_Results.csv
+│   ├── Scenario_Results.csv
+│   ├── Scenario_Results.csv
+│   ├── Scenario_Results.csv
 │
 ├── README.md
 ├── requirements.txt
