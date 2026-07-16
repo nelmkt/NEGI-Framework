@@ -159,7 +159,7 @@ ax.bar(
 ax.set_ylabel("R²")
 ax.set_title("Machine Learning Model Comparison for LST Prediction")
 plt.xticks(rotation=30, ha="right")
-save_fig(fig, "figure_model_comparison_r2.png")
+save_fig(fig, "model_comparison_r2.png")
 
 # MODEL PERFORMANCE FIGURES
 
@@ -194,7 +194,7 @@ for bar in bars:
 ax.set_ylabel("Feature Importance (Gain)")
 ax.set_title("XGBoost Feature Importance (Gain)")
 ax.margins(y=0.12)
-save_fig(fig, "figure_feature_importance.png")
+save_fig(fig, "feature_importance.png")
 
 # NDVI distribution
 fig, ax = plt.subplots(figsize=FIGSIZE)
@@ -210,7 +210,7 @@ ax.set_title("Distribution of NDVI Values")
 ax.set_xlabel("NDVI")
 ax.set_ylabel("Frequency")
 ax.legend()
-save_fig(fig, "figure1_ndvi_distribution.png")
+save_fig(fig, "ndvi_distribution.png")
 
 # NDBI distribution
 fig, ax = plt.subplots(figsize=FIGSIZE)
@@ -226,7 +226,7 @@ ax.set_title("Distribution of NDBI Values")
 ax.set_xlabel("NDBI")
 ax.set_ylabel("Frequency")
 ax.legend()
-save_fig(fig, "figure2_ndbi_distribution.png")
+save_fig(fig, "ndbi_distribution.png")
 
 # NDVI vs. LST with linear trendline
 fig, ax = plt.subplots(figsize=FIGSIZE)
@@ -247,7 +247,7 @@ ax.set_title("Relationship between NDVI and Land Surface Temperature")
 ax.set_xlabel("NDVI")
 ax.set_ylabel("LST (°C)")
 ax.legend()
-save_fig(fig, "figure3_ndvi_vs_lst.png")
+save_fig(fig, "ndvi_vs_lst.png")
 
 # Actual vs predicted LST
 fig, ax = plt.subplots(figsize=FIGSIZE)
@@ -267,18 +267,7 @@ ax.set_title("Observed vs Predicted Land Surface Temperature")
 ax.set_xlabel("Observed LST (°C)")
 ax.set_ylabel("Predicted LST (°C)")
 ax.legend(loc="lower right")
-save_fig(fig, "figure4_actual_vs_predicted.png")
-
-# Residuals
-residuals = y_test - pred
-fig, ax = plt.subplots(figsize=FIGSIZE)
-ax.scatter(pred, residuals, alpha=0.3, s=14, color=COLOR_SECONDARY, edgecolor="none")
-ax.axhline(0, color=COLOR_NEUTRAL, linestyle="--", linewidth=1.2)
-ax.set_title("Residuals of the Optimized XGBoost Model")
-ax.set_xlabel("Predicted LST (°C)")
-ax.set_ylabel("Residuals (°C)")
-ax.set_ylim(-5, 5)  # bound the view to the typical residual range
-save_fig(fig, "figure5_residuals.png")
+save_fig(fig, "actual_vs_predicted.png")
 
 # TWO-SCENARIO GREENING FRAMEWORK & NEGI COMPILATION
 scenarios = np.arange(0.05, 0.55, 0.01)
@@ -405,7 +394,7 @@ ax.set_xlabel("Fractional Vegetation Cover (%)")
 ax.set_ylabel("Normalized NEGI (Cooling Benefit - Energy Cost)")
 ax.set_title("Net Energy Gain Index (NEGI) Scenario Comparison")
 ax.legend(loc="lower left")
-save_fig(fig, "figure6_negi_scenario_comparison.png")
+save_fig(fig, "negi_scenario_comparison.png")
 
 print("\nNEGI scenario results")
 print(f"Scenario 1 Maximum NEGI: {NEGI_s1.max():.3f} at FVC = {scenarios[np.argmax(NEGI_s1)] * 100:.1f}%")
@@ -598,4 +587,4 @@ ax.plot(ndbi_range, pred_ndbi, color=COLOR_SECONDARY, linewidth=2)
 ax.set_xlabel("NDBI")
 ax.set_ylabel("Predicted LST (°C)")
 ax.set_title("LST Response to NDBI (NDVI and Elevation Fixed)")
-save_fig(fig, "figure7_lst_response_to_ndbi.png")
+save_fig(fig, "lst_response_to_ndbi.png")
