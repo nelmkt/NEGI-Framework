@@ -54,10 +54,10 @@ mpl.rcParams.update({
     "grid.linewidth": 0.6,
 })
 
-COLOR_PRIMARY = "#2E86AB"    # Scenario 1 / NDVI
-COLOR_SECONDARY = "#E67E22"  # Scenario 2 / NDBI / Energy costs
-COLOR_ACCENT = "#C0392B"     # Optimal markers / trendlines
-COLOR_NEUTRAL = "#4D4D4D"    # Reference lines
+COLOR_PRIMARY = "#2E86AB"
+COLOR_SECONDARY = "#E67E22"
+COLOR_ACCENT = "#C0392B"
+COLOR_NEUTRAL = "#4D4D4D"
 FIGSIZE = (7, 5)
 
 
