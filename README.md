@@ -46,20 +46,18 @@ The NEGI Framework integrates Google Earth Engine, satellite remote sensing, mac
 ---
 
 # Methodological Workflow
-
 1. Acquire Landsat 8 imagery using Google Earth Engine.
-2. Derive NDVI, NDBI, and Land Surface Temperature (LST).
+2. Derive Normalized Difference Vegetation Index (NDVI), Normalized Difference Built-up Index (NDBI), and Land Surface Temperature (LST).
 3. Extract elevation from the Digital Elevation Model (DEM).
-4. Train and optimize an XGBoost regression model.
-5. Compare XGBoost against Linear Regression, Random Forest, and Gradient Boosting.
-6. Evaluate model performance using R², RMSE, MAE, and cross-validation.
-7. Quantify feature importance.
-8. Simulate Fractional Vegetation Cover (FVC) scenarios.
-9. Estimate vegetation cooling benefits.
-10. Estimate irrigation energy requirements.
-11. Compute the Net Energy Gain Index (NEGI).
-12. Perform sensitivity analysis of empirical coefficients.
-
+4. Train and optimize an XGBoost regression model using GridSearchCV.
+5. Benchmark XGBoost against Linear Regression, Random Forest, and Gradient Boosting models.
+6. Evaluate predictive performance using cross-validation, R², RMSE, and MAE.
+7. Assess the relative importance of predictor variables.
+8. Simulate Fractional Vegetation Cover (FVC) scenarios under alternative urban greening strategies.
+9. Estimate vegetation-induced land surface cooling.
+10. Estimate irrigation energy requirements associated with desalinated water use.
+11. Compute the Net Energy Gain Index (NEGI) to evaluate cooling–energy trade-offs.
+12. Perform sensitivity analysis of empirical NEGI parameters to assess the robustness of the proposed framework.
 ---
 
 # Repository Structure
@@ -207,7 +205,7 @@ See the `LICENSE` file for details.
 
 **Nelly F. Almaktoum**
 
-Faculty of Computing and Information Technology  
+Faculty of Computing and Information Technology (FCIT)
 King Abdulaziz University  
 Jeddah, Saudi Arabia
 
