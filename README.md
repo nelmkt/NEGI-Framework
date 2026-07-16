@@ -21,9 +21,9 @@ The NEGI Framework integrates Google Earth Engine, satellite remote sensing, mac
 
 # Key Results
 
-- Optimized XGBoost achieved **R² = 0.728** with **RMSE = 1.99 °C**.
+- Optimized XGBoost achieved R² = 0.728** with **RMSE = 1.99 °C.
 - XGBoost outperformed Linear Regression, Random Forest, and Gradient Boosting.
-- Introduces the **Net Energy Gain Index (NEGI)** for evaluating urban greening under coupled cooling–energy trade-offs.
+- Introduces the Net Energy Gain Index (NEGI) for evaluating urban greening under coupled cooling–energy trade-offs.
 - Urban transformation (combined vegetation increase and built-up reduction) consistently outperformed greening alone.
 - Maximum NEGI occurred at approximately **11% Fractional Vegetation Cover (FVC)** under the evaluated scenarios.
 - Sensitivity analysis demonstrated that the optimal vegetation threshold remained relatively stable across a wide range of empirical scaling coefficients.
