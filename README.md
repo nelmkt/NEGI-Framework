@@ -1,4 +1,4 @@
-# NEGI Framework: Remote Sensing and Machine Learning for Urban Greening Energy Assessment
+# NEGI Framework: Remote Sensing and Machine Learning for Urban Greening–Energy Assessment
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -15,30 +15,33 @@ This repository accompanies the manuscript:
 
 ![Graphical Abstract](figures/graphical_abstract.jpg)
 
-The NEGI Framework integrates Google Earth Engine, satellite remote sensing, XGBoost machine learning, and comparative energy assessment to evaluate urban greening strategies in desalination-dependent cities. The repository contains the complete preprocessing scripts, Python implementation, processed datasets, and reproducible workflow used in the accompanying study.
+The NEGI Framework integrates Google Earth Engine, satellite remote sensing, machine learning, and comparative energy assessment to evaluate urban greening strategies in desalination-dependent cities. The repository includes the complete preprocessing workflow, Python implementation, processed datasets, scenario analysis, and sensitivity analysis required to reproduce the study.
 
 ---
 
 # Key Results
 
-- XGBoost surrogate model achieved R² = 0.817 (RMSE = 3.64 °C).
-- Introduces the Net Energy Gain Index (NEGI) for comparative urban greening assessment.
-- Identifies a comparative energy-optimal vegetation threshold of approximately 5% FVC.
-- Identifies a comparative energy-neutral threshold of approximately 15–20% FVC.
-- Demonstrates robust vegetation thresholds across all evaluated sensitivity scenarios.
+- Optimized XGBoost achieved **R² = 0.728** with **RMSE = 1.99 °C**.
+- XGBoost outperformed Linear Regression, Random Forest, and Gradient Boosting.
+- Introduces the **Net Energy Gain Index (NEGI)** for evaluating urban greening under coupled cooling–energy trade-offs.
+- Urban transformation (combined vegetation increase and built-up reduction) consistently outperformed greening alone.
+- Maximum NEGI occurred at approximately **11% Fractional Vegetation Cover (FVC)** under the evaluated scenarios.
+- Sensitivity analysis demonstrated that the optimal vegetation threshold remained relatively stable across a wide range of empirical scaling coefficients.
 
 ---
 
 # Features
 
-- Landsat 8 preprocessing using Google Earth Engine
-- Extraction of NDVI, NDBI, and Land Surface Temperature (LST)
-- XGBoost regression for urban thermal prediction
-- Fractional Vegetation Cover (FVC) scenario analysis
-- Comparative assessment of vegetation cooling and desalination-related irrigation energy
+- Google Earth Engine preprocessing of Landsat 8 imagery
+- Retrieval of NDVI, NDBI, Elevation, and Land Surface Temperature (LST)
+- Hyperparameter optimization using GridSearchCV
+- Machine learning model comparison
+- Optimized XGBoost regression for LST prediction
+- Feature importance analysis
+- Fractional Vegetation Cover (FVC) scenario simulations
 - Net Energy Gain Index (NEGI) computation
-- Sensitivity analysis of empirical scaling coefficients
-- Automatic generation of publication-ready figures and CSV outputs
+- Sensitivity analysis of NEGI parameters
+- Automatic generation of publication-quality figures and CSV outputs
 
 ---
 
@@ -46,20 +49,22 @@ The NEGI Framework integrates Google Earth Engine, satellite remote sensing, XGB
 
 1. Acquire Landsat 8 imagery using Google Earth Engine.
 2. Derive NDVI, NDBI, and Land Surface Temperature (LST).
-3. Train an XGBoost regression model using NDVI and NDBI.
-4. Optimize model hyperparameters using GridSearchCV.
-5. Evaluate model performance using R², RMSE, and five-fold cross-validation.
-6. Simulate urban greening scenarios using Fractional Vegetation Cover (FVC).
-7. Estimate vegetation-induced cooling benefits.
-8. Estimate desalination-related irrigation energy requirements.
-9. Compute the Net Energy Gain Index (NEGI).
-10. Perform sensitivity analysis of empirical scaling coefficients.
+3. Extract elevation from the Digital Elevation Model (DEM).
+4. Train and optimize an XGBoost regression model.
+5. Compare XGBoost against Linear Regression, Random Forest, and Gradient Boosting.
+6. Evaluate model performance using R², RMSE, MAE, and cross-validation.
+7. Quantify feature importance.
+8. Simulate Fractional Vegetation Cover (FVC) scenarios.
+9. Estimate vegetation cooling benefits.
+10. Estimate irrigation energy requirements.
+11. Compute the Net Energy Gain Index (NEGI).
+12. Perform sensitivity analysis of empirical coefficients.
 
 ---
 
 # Repository Structure
 
-```
+```text
 NEGI-Framework/
 │
 ├── src/
@@ -70,15 +75,26 @@ NEGI-Framework/
 │
 ├── data/
 │   ├── Jeddah_NDVI_NDBI_LST_dataset_Masked.csv
+│   ├── Grid_Search_Results.csv
+│   ├── Model_Comparison.csv
 │   ├── Scenario_Results.csv
-│   └── Sensitivity_Analysis.csv
+│   ├── Scenario_Results_Formatted.csv
+│   ├── NEGI_Sensitivity_Analysis.csv
+│   └── Scenario_Feature_Combinations.csv
 │
 ├── plots/
-│   └── graphical_abstract.jpg
-│   ├── Scenario_Results.csv
-│   ├── Scenario_Results.csv
-│   ├── Scenario_Results.csv
-│   ├── Scenario_Results.csv
+│   ├── graphical_abstract.jpg
+│   ├── Figure_NDVI_Distribution.png
+│   ├── Figure_NDBI_Distribution.png
+│   ├── Figure_NDVI_vs_LST.png
+│   ├── Figure_Actual_vs_Predicted.png
+│   ├── Figure_Residuals.png
+│   ├── Figure_Normalized_NEGI_Curve_Comparison.png
+│   ├── Figure_Model_Comparison_R2.png
+│   ├── Figure_Feature_Importance.png
+│   ├── NEGI_Optimal_FVC_Sensitivity.png
+│   ├── NEGI_Exponent_Sensitivity.png
+│   └── Sensitivity_Maximum_NEGI.png
 │
 ├── README.md
 ├── requirements.txt
@@ -91,9 +107,7 @@ NEGI-Framework/
 
 # Installation
 
-The workflow requires Python 3.12 (or later).
-
-Install the required packages using
+Clone the repository and install the required packages:
 
 ```bash
 pip install -r requirements.txt
@@ -103,60 +117,72 @@ pip install -r requirements.txt
 
 # Running the Code
 
-Execute the complete workflow using
+Execute the complete workflow:
 
 ```bash
 python src/negi_framework.py
 ```
 
-Running the script performs the complete analytical workflow, including:
+The workflow automatically performs:
 
 - Data loading
-- Hyperparameter optimization (GridSearchCV)
-- Model training
+- Hyperparameter optimization
+- Machine learning model comparison
+- XGBoost training
 - Model validation
 - Feature importance analysis
-- Urban greening scenario simulation
+- Scenario simulation
 - NEGI computation
 - Sensitivity analysis
 - Figure generation
-- Export of CSV result files
+- Export of CSV results
 
 ---
 
 # Outputs
 
-Running the workflow automatically generates:
+The workflow generates:
 
-- XGBoost model evaluation metrics
-- Feature importance analysis
-- Urban greening scenario results
+- Model comparison results
+- Optimized XGBoost performance metrics
+- Feature importance rankings
+- Scenario analysis results
 - Net Energy Gain Index (NEGI)
-- Sensitivity analysis results
+- Sensitivity analysis outputs
 - Publication-ready figures
-- CSV files containing scenario and sensitivity results
+- CSV tables for all analyses
 
 ---
 
 # Data
 
-Satellite observations were derived from Landsat 8 imagery processed using Google Earth Engine.
+The processed dataset was derived from Landsat 8 imagery using Google Earth Engine.
 
-The processed dataset contains approximately 15,000 randomly sampled observations, including:
+Each observation includes:
 
+- Land Surface Temperature (LST)
 - Normalized Difference Vegetation Index (NDVI)
 - Normalized Difference Built-up Index (NDBI)
-- Land Surface Temperature (LST)
+- Elevation
 
-The processed dataset is included to enable complete reproducibility of the published analyses.
+The processed dataset is included to enable complete reproducibility without rerunning the remote sensing workflow.
 
 ---
 
 # Reproducibility
 
-This repository contains the complete implementation used to reproduce the analyses, figures, tables, and scenario results presented in the accompanying manuscript.
+Executing the supplied workflow reproduces the complete analytical pipeline presented in the manuscript, including:
 
-Executing the supplied workflow using the included processed dataset reproduces the published model evaluation, scenario analysis, sensitivity analysis, and figures without requiring additional preprocessing.
+- Hyperparameter optimization
+- Machine learning model comparison
+- XGBoost model training
+- Model evaluation
+- Feature importance analysis
+- Scenario simulations
+- NEGI computation
+- Sensitivity analysis
+- Publication figures
+- Exported result tables
 
 ---
 
@@ -165,8 +191,7 @@ Executing the supplied workflow using the included processed dataset reproduces 
 If this repository contributes to your research, please cite:
 
 1. The accompanying journal article.
-
-2. This software repository (automatically generated from the included `CITATION.cff` file).
+2. This software repository (via the included `CITATION.cff` file).
 
 ---
 
@@ -186,9 +211,9 @@ Faculty of Computing and Information Technology
 King Abdulaziz University  
 Jeddah, Saudi Arabia
 
-📧 **Email:** nalmaktoum0001@stu.kau.edu.sa
+📧 nalmaktoum0001@stu.kau.edu.sa
 
-🔗 **ORCID:** https://orcid.org/0009-0007-9887-0280
+ORCID: https://orcid.org/0009-0007-9887-0280
 
 ---
 
