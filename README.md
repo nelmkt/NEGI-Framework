@@ -11,7 +11,7 @@ An open-source implementation of the Net Energy Gain Index (NEGI) framework for 
 
 This repository accompanies the manuscript:
 
-> **A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening–Energy Trade-Offs in Desalination-Dependent Cities**
+> **A Decision-Support Framework for Evaluating Urban Greening under Water–Energy Constraints in Desalination-Dependent Cities**
 
 ![Graphical Abstract](plots/graphical_abstract.png)
 
