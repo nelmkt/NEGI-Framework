@@ -3,7 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
+# Compiled extensions
+*.so
+
+# Virtual Environments
 .venv/
 venv/
 env/
@@ -16,25 +19,44 @@ ENV/
 # Jupyter
 .ipynb_checkpoints/
 
-# OS files
+# Operating System Files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Python build
+
+# Python Build Artifacts
 build/
 dist/
 *.egg-info/
+.eggs/
+pip-wheel-metadata/
 
-# Logs
+
+# Logs and Cache
 *.log
 *.tmp
 .cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Large models / temporary files
+# Temporary Data
 *.pkl
+*.pickle
 *.h5
 *.npy
 *.npz
 
-# Local outputs (optional)
-outputs/
+# Coverage Reports
+.coverage
+coverage.xml
+htmlcov/
+
+
+# outputs/
+# Results/
+
+# Environment Variables
+.env
+.env.*
