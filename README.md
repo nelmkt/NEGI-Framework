@@ -86,15 +86,12 @@ NEGI-Framework/
 ├── gee/
 │   └── landsat_preprocessing.js
 │
-├── data/
+├── Data/
 │   └── processed_dataset.csv
 │
 ├── Results/
 │   ├── Main/
 │   ├── Supplementary/
-│   ├── CSV/
-│   ├── Reports/
-│   └── Logs/
 │
 ├── README.md
 ├── requirements.txt
@@ -102,8 +99,6 @@ NEGI-Framework/
 ├── CITATION.cff
 └── .gitignore
 ```
-
-*(Adjust this section to match your final repository exactly.)*
 
 ---
 
@@ -249,24 +244,6 @@ ORCID: [https://orcid.org/0009-0007-9887-0280](https://orcid.org/0009-0007-9887-
 
 If this framework contributes to your research, please consider:
 
-* ⭐ Starring the repository
-* 📖 Citing the accompanying publication
-* 🔁 Sharing improvements through issues or pull requests
-
----
-
-## Additional recommendations
-
-Since your framework has evolved considerably, I'd also suggest adding these sections to make the repository more informative:
-
-* **Requirements** (Python version and key dependencies)
-* **Validation Strategy** (briefly describe Nested GroupKFold, repeated spatial-block validation, and independent holdout)
-* **Scientific Contributions** (summarize the methodological innovations of the NEGI framework)
-* **Example Outputs** (include 2–4 representative figures from the `Results/Main` directory)
-* **Changelog** (if you expect future updates)
-
-These additions would make the repository more useful for both researchers and reviewers while reflecting the maturity of your final framework.
-
-Changelog (if you expect future updates)
-
-These additions would make the repository more useful for both researchers and reviewers while reflecting the maturity of your final framework.
+* Starring the repository
+*  Citing the accompanying publication
+*  Sharing improvements through issues or pull requests
