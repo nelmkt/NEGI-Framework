@@ -1,0 +1,2 @@
+baseline_lst_c,s1_max_negi,s1_max_negi_pct,s2_max_negi,s2_max_negi_pct,s2_max_cooling_c,s2_max_warming_c,s2_first_cooling_pct,s2_warming_fraction,s2_cooling_fraction,calibration_slope,feature_support_status
+51.29104995727539,0.0,0.0,0.005012562893380035,99.0,0.9055099487304688,0.3797569274902344,69.5,0.685785536159601,0.30673316708229426,0.9852121574830868,within bounds
