@@ -232,6 +232,8 @@ See the `LICENSE` file for details.
 
 Faculty of Computing and Information Technology (FCIT)
 
+Department of Computer Science 
+
 King Abdulaziz University
 
 Jeddah, Saudi Arabia
