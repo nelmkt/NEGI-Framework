@@ -2,7 +2,7 @@ cff-version: 1.2.0
 
 title: "A Decision-Support Framework for Evaluating Urban Greening under Water–Energy Constraints in Desalination-Dependent Cities"
 
-message: "If you use this repository, please cite the accompanying publication."
+message: "If you use this software, please cite both the accompanying publication and this repository."
 
 type: software
 
@@ -15,10 +15,24 @@ repository-code: "https://github.com/nelmkt/NEGI-Framework"
 
 license: MIT
 
+version: "1.0.0"
+
+abstract: >
+  An open-source Python framework for evaluating urban greening strategies
+  under coupled water–energy constraints using satellite remote sensing,
+  machine learning, spatial validation, uncertainty analysis, and the
+  Normalized Environmental Gain Index (NEGI).
+
 keywords:
+  - Normalized Environmental Gain Index
+  - NEGI
   - Urban Heat Island
+  - Urban Greening
   - Remote Sensing
   - Machine Learning
   - XGBoost
+  - Land Surface Temperature
+  - Spatial Validation
+  - Google Earth Engine
   - Desalination
-  - Net Energy Gain Index
+  - Sustainability
