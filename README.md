@@ -82,23 +82,24 @@ The framework performs the following steps:
 ```text
 NEGI-Framework/
 │
-├── README.md                      # Project documentation
-├── requirements.txt               # Python dependencies
-├── LICENSE                        # MIT License
-├── CITATION.cff                   # Citation information
-├── .gitignore                     # Git ignore rules
+├── README.md                        # Project documentation
+├── requirements.txt                 # Python dependencies
+├── LICENSE                          # MIT License
+├── CITATION.cff                     # Citation information
+├── .gitignore                       # Git ignore rules
 │
-├── SRC/                           # Supporting source code
-│   └──  NEGI_Framework.py              # Main Python framework
+├── SRC/                             # Supporting source code
+│   └── NEGI_Framework.py            # Main Python framework
 │
 ├── GEE/
-│   └── landsat_preprocessing.js   # Google Earth Engine preprocessing script
+│   ├── landsat_preprocessing.js     # Google Earth Engine preprocessing script
+│   └── Jeddah_LST_Dataset_2023.csv  # Google Earth Engine extracted CSV for Jeddah city
 │
-├── Data/                          # Processed datasets
+├── Data/                            # Processed datasets
 │
 └── Results/
-    ├── Main/                      # Main manuscript figures and tables
-    └── Supplementary/             # Supplementary figures and tables
+    ├── Main/                        # Main manuscript figures and tables
+    └── Supplementary/               # Supplementary figures and tables
 ```
 
 ---
