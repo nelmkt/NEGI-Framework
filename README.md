@@ -231,7 +231,9 @@ See the `LICENSE` file for details.
 **Nelly F. Almaktoum**
 
 Faculty of Computing and Information Technology (FCIT)
+
 King Abdulaziz University
+
 Jeddah, Saudi Arabia
 
 📧 [nalmaktoum0001@stu.kau.edu.sa](mailto:nalmaktoum0001@stu.kau.edu.sa)
