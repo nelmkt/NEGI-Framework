@@ -93,7 +93,7 @@ NEGI-Framework/
 │
 ├── gee/
 │   ├── landsat_preprocessing.js     # Google Earth Engine preprocessing script
-│   └── Jeddah_LST_Dataset_2023.csv  # Google Earth Engine extracted CSV for Jeddah city
+│   └── Jeddah_LST_Dataset_2023.csv  # Google Earth Engine extracted dataset for Jeddah city
 │
 ├── Data/                            # Processed datasets
 │
