@@ -89,7 +89,7 @@ NEGI-Framework/
 ├── .gitignore                       # Git ignore rules
 │
 ├── src/                             # Supporting source code
-│   └── NEGI_Framework.py            # Main Python framework
+│   └── negi_framework.py            # Main Python framework
 │
 ├── gee/
 │   ├── landsat_preprocessing.js     # Google Earth Engine preprocessing script
