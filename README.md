@@ -88,10 +88,10 @@ NEGI-Framework/
 ├── CITATION.cff                     # Citation information
 ├── .gitignore                       # Git ignore rules
 │
-├── SRC/                             # Supporting source code
+├── src/                             # Supporting source code
 │   └── NEGI_Framework.py            # Main Python framework
 │
-├── GEE/
+├── gee/
 │   ├── landsat_preprocessing.js     # Google Earth Engine preprocessing script
 │   └── Jeddah_LST_Dataset_2023.csv  # Google Earth Engine extracted CSV for Jeddah city
 │
