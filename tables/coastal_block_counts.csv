@@ -1,0 +1,9 @@
+setting,coast_band,n_matched,n_spatial_blocks,n_matching_regions
+outside the built-up area,< 2 km,8,2,2
+outside the built-up area,2–5 km,6,4,3
+outside the built-up area,5–10 km,24,7,5
+outside the built-up area,≥ 10 km,706,24,10
+built-up surroundings,< 2 km,9,6,5
+built-up surroundings,2–5 km,31,10,7
+built-up surroundings,5–10 km,81,13,7
+built-up surroundings,≥ 10 km,189,22,8

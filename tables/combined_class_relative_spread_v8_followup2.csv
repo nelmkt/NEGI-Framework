@@ -1,0 +1,5 @@
+exposure,radius_m,relative_spread_range_over_abs_mean,lo,hi,valid_block_draws,note
+own,0,0.6282905512737106,0.5563074929781912,0.754015137542857,2000,descriptive; external pixels may enter multiple focal-cell exposures
+combined_90m,90,0.47157173659738083,0.27531686160875457,0.5600766617988258,2000,descriptive; external pixels may enter multiple focal-cell exposures
+combined_180m,180,0.26318306735088026,0.08713832418865733,0.31590463668354835,2000,descriptive; external pixels may enter multiple focal-cell exposures
+combined_300m,300,0.1336721275462923,0.06573661193653316,0.25512606983723446,2000,descriptive; external pixels may enter multiple focal-cell exposures

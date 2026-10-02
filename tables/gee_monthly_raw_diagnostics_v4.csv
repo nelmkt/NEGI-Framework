@@ -1,0 +1,2 @@
+raw_file,n_exported,n_source_joined,n_own_cell_dose_disagreements,n_neighbor_order_violations,n_monthly_count_violations,n_full_valid_cell_months,n_possible_cell_months
+monthly_isolation_raw_v4.csv,1333,1333,0,0,0,13330,13330
