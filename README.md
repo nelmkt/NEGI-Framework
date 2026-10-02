@@ -123,7 +123,7 @@ The `main` branch holds the first version of this project (a surrogate pipeline 
 
 ## How to cite
 
-See `CITATION.cff`. [AUTHOR TO COMPLETE: paper reference and DOI after publication.]
+See `CITATION.cff`.
 
 ## Licence
 
@@ -131,4 +131,4 @@ See `LICENSE`.
 
 ## Contact
 
-[AUTHOR TO COMPLETE: contact e-mail.]
+nalmaktoum0001@stu.kau.edu.sa
