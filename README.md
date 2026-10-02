@@ -1,5 +1,9 @@
+```markdown
 # A Remote Sensing and Machine Learning Framework for Urban Greening–Energy Trade-Offs
- ![Python 3.12](https://shields.io)
+
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-007EC6?style=flat)](LICENSE)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:nalmaktoum0001@stu.kau.edu.sa)
 
 Code, data exports and result tables for the paper
 
@@ -31,7 +35,7 @@ The model predicts LST well and still fails as a predictor of change. The framew
 
 ## Repository structure
 
-```
+```text
 README.md            this file
 LICENSE              licence
 CITATION.cff         how to cite
@@ -53,9 +57,9 @@ figures_pdf/         figures (PDF)
 docs/
   FILE_GUIDE.md      every script and table, grouped by purpose, in reading order
   DATA.md            data sources, panel columns, what is withheld
-  MATH_CHECK_V11.md              leverage shares and the own-only vs joint identity
-  NEGI_LOGIC_AUDIT_V11.md        what the index computes, line by line
-  PORTABILITY_AUDIT_V11.md       what is Jeddah-specific in the code
+  MATH_CHECK_V11.md  leverage shares and the own-only vs joint identity
+  NEGI_LOGIC_AUDIT_V11.md  what the index computes, line by line
+  PORTABILITY_AUDIT_V11.md  what is Jeddah-specific in the code
   NUMERIC_AUDIT_FRAMEWORK_V11B.md  each number in the paper checked against its table
 ```
 
@@ -76,7 +80,7 @@ Start with `docs/FILE_GUIDE.md` to find a script or table.
 
 Python 3.12 was used.
 
-```
+```bash
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -86,7 +90,7 @@ pip install -r requirements.txt
 
 The two cell panels are stored compressed. Decompress them once, in place:
 
-```
+```bash
 python -c "import gzip,shutil; [shutil.copyfileobj(gzip.open(f'code/gee/{n}.gz','rb'), open(f'code/gee/{n}','wb')) for n in ('panel.csv','panel_jun_sep.csv')]"
 ```
 
@@ -96,7 +100,7 @@ Their SHA256 values after decompression are at the top of `MANIFEST_SHA256.txt`.
 
 From the repository root (this writes into `tables/` and the figure folders; work in a copy to keep the shipped outputs):
 
-```
+```bash
 python code/src/run_framework.py --panel code/gee/panel.csv --out .
 ```
 
@@ -104,7 +108,7 @@ Follow-up analyses are separate scripts in `code/src`; `REPRODUCE.md` gives the 
 
 ## Tests
 
-```
+```bash
 set PYTHONDONTWRITEBYTECODE=1
 python -m pytest code/src -p no:cacheprovider
 ```
@@ -133,3 +137,4 @@ See `LICENSE`.
 ## Contact
 
 nalmaktoum0001@stu.kau.edu.sa
+```
