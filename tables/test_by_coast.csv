@@ -1,0 +1,6 @@
+setting,coast_band,n_cells,measured_px_C,measured_px_lo_C,measured_px_hi_C,model_px_C,consistent,status,test
+outside the built-up area,5–10 km,24,-0.2696048178325968,-0.6999273020678307,-0.20378374123967236,-0.6840869998592499,False,tolerance_not_set,B
+outside the built-up area,≥ 10 km,706,-1.1158621090975251,-1.1860312340195467,-0.9005828275517516,-0.42047437548613376,False,tolerance_not_set,B
+built-up surroundings,2–5 km,31,-0.8406086943638623,-1.1370341557884587,-0.4867051725196429,-0.8678661570829503,False,tolerance_not_set,B
+built-up surroundings,5–10 km,81,-0.6643510831453319,-0.9478648652172308,-0.43948297524104385,-0.7925725689238459,False,tolerance_not_set,B
+built-up surroundings,≥ 10 km,189,-0.7622179152177352,-0.924672848497704,-0.6398994174122334,-0.6158284618088844,False,tolerance_not_set,B

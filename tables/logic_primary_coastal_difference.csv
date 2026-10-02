@@ -1,0 +1,3 @@
+setting,contrast,n_near,n_far,difference_C,lo_C,hi_C,n_valid,n_draws
+outside the built-up area,at least 10 km minus 5-10 km,25,967,-0.9146596180654961,-1.0674957801844387,-0.27935595270907887,2000,2000
+built-up surroundings,at least 10 km minus 5-10 km,83,189,-0.14563881375863796,-0.4111465889224856,0.18575308780966684,2000,2000

@@ -1,0 +1,21 @@
+variant,estimand,n_treated,n_treated_matched,n_controls_matched,n_treated_blocks_matched,n_control_blocks_matched,n_comparison_blocks_matched,n_treated_regions_matched,largest_block_dose_squared_share,largest_region_dose_squared_share,leverage_basis,setting
+main,per greened pixel,1014,744,5056,34,52,54,15,0.39993455497382197,0.4556937172774869,squared greened pixels,outside the built-up area
+main,dose 1–2,426,355,5008,32,52,54,15,0.13788300835654596,0.27298050139275765,squared greened pixels,outside the built-up area
+main,dose 3–4,184,147,3702,21,37,37,11,0.21578003586371788,0.3185893604303646,squared greened pixels,outside the built-up area
+main,dose 5–8,244,167,3890,19,38,38,11,0.40137951276783096,0.45201056648077487,squared greened pixels,outside the built-up area
+main,dose 9,160,75,436,9,17,17,6,0.48,0.52,squared greened pixels,outside the built-up area
+without southern latitude belt (exploratory proxy),per greened pixel,375,363,4115,26,41,43,12,0.43873146931882157,0.46162507036967537,squared greened pixels,outside the built-up area
+without southern latitude belt (exploratory proxy),dose 1–2,217,209,4072,25,41,43,12,0.21951219512195122,0.47804878048780486,squared greened pixels,outside the built-up area
+without southern latitude belt (exploratory proxy),dose 3–4,78,76,2948,15,30,30,9,0.27305825242718446,0.5169902912621359,squared greened pixels,outside the built-up area
+without southern latitude belt (exploratory proxy),dose 5–8,55,53,3297,14,30,30,9,0.2584541062801932,0.3714975845410628,squared greened pixels,outside the built-up area
+without southern latitude belt (exploratory proxy),dose 9,25,25,303,5,10,10,4,0.8,0.8,squared greened pixels,outside the built-up area
+main,per greened pixel,319,310,2296,40,46,46,14,0.14160327677004095,0.2328847279110591,squared greened pixels,built-up surroundings
+main,dose 1–2,252,243,2239,40,45,46,14,0.07675438596491228,0.16885964912280702,squared greened pixels,built-up surroundings
+main,dose 3–4,50,50,1121,19,38,38,11,0.18874172185430463,0.2185430463576159,squared greened pixels,built-up surroundings
+main,dose 5–8,16,16,535,9,25,25,8,0.30633802816901406,0.36971830985915494,squared greened pixels,built-up surroundings
+main,dose 9,1,1,43,1,2,2,1,1.0,1.0,squared greened pixels,built-up surroundings
+without southern latitude belt (exploratory proxy),per greened pixel,275,267,2051,33,37,37,11,0.15942028985507245,0.2621870882740448,squared greened pixels,built-up surroundings
+without southern latitude belt (exploratory proxy),dose 1–2,214,206,1994,33,36,37,11,0.09138381201044386,0.2010443864229765,squared greened pixels,built-up surroundings
+without southern latitude belt (exploratory proxy),dose 3–4,46,46,1052,17,33,33,9,0.20840950639853748,0.2413162705667276,squared greened pixels,built-up surroundings
+without southern latitude belt (exploratory proxy),dose 5–8,14,14,509,7,20,20,6,0.3431952662721893,0.41420118343195267,squared greened pixels,built-up surroundings
+without southern latitude belt (exploratory proxy),dose 9,1,1,43,1,2,2,1,1.0,1.0,squared greened pixels,built-up surroundings

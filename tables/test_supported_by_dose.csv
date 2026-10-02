@@ -1,0 +1,8 @@
+setting,pixels,measured_C,measured_lo_C,measured_hi_C,model_C,model_lo_C,model_hi_C,difference_C,difference_lo_C,difference_hi_C,n_cells,n_blocks,n_joint_valid,agrees,status
+outside the built-up area,1–2,-0.9169679544402631,-1.541431468632919,0.013294499042394872,-0.37585694449288504,-0.9086524641359007,0.2470523715019227,0.5411110099473782,-0.31885765702460617,1.2538796182278893,14,10,200,False,tolerance_not_set
+outside the built-up area,3–4,,,,,,,,,,0,0,0,False,no_matched_cells
+outside the built-up area,5–8,,,,,,,,,,0,0,0,False,no_matched_cells
+outside the built-up area,9,,,,,,,,,,0,0,0,False,no_matched_cells
+built-up surroundings,1–2,-1.3320866831482698,-1.6529995414604808,-1.0153271141004867,-1.0228894332359577,-1.4558810479598878,-0.7151974843639247,0.3091972499123121,-0.21002858644416733,0.7708735522215574,58,25,200,False,tolerance_not_set
+built-up surroundings,3–4,-2.8520520833333327,-2.9130568750000005,-2.803248249999998,-1.7619781494140625,-2.4905014038085938,-1.1112502098083499,1.0900739339192702,0.34269465300958696,1.7671052382435972,2,1,127,False,tolerance_not_set
+built-up surroundings,5–8,,,,,,,,,,0,0,0,False,no_matched_cells
