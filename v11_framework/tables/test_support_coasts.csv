@@ -1,0 +1,17 @@
+setting,coast_band,subset,n_cells,n_all,measured_px_C,model_px_C,difference_px_C,status
+outside the built-up area,< 2 km,supported,0,8,,,,point diagnostic only; support is not accuracy
+outside the built-up area,< 2 km,unsupported,8,8,-0.464094273880022,-0.6332402573418372,-0.1691459834618152,point diagnostic only; support is not accuracy
+outside the built-up area,2–5 km,supported,1,6,0.6324926118421106,-2.03082275390625,-2.6633153657483604,point diagnostic only; support is not accuracy
+outside the built-up area,2–5 km,unsupported,5,6,-0.356871576718391,-1.1804957389831543,-0.8236241622647633,point diagnostic only; support is not accuracy
+outside the built-up area,5–10 km,supported,2,24,-1.4777847499999979,-1.3187808990478516,0.1590038509521463,point diagnostic only; support is not accuracy
+outside the built-up area,5–10 km,unsupported,22,24,-0.26094402978838604,-0.6795372228041344,-0.4185931930157484,point diagnostic only; support is not accuracy
+outside the built-up area,≥ 10 km,supported,11,706,-0.9558613158187089,-0.053964788263494316,0.9018965275552147,point diagnostic only; support is not accuracy
+outside the built-up area,≥ 10 km,unsupported,695,706,-1.115980373358113,-0.42074528030130975,0.6952350930568033,point diagnostic only; support is not accuracy
+built-up surroundings,< 2 km,supported,4,9,-0.8732172300000013,-0.7814426422119141,0.09177458778808723,point diagnostic only; support is not accuracy
+built-up surroundings,< 2 km,unsupported,5,9,-0.8355032514957276,-0.7190422644981971,0.11646098699753049,point diagnostic only; support is not accuracy
+built-up surroundings,2–5 km,supported,16,31,-0.7434476473225194,-0.7863533837454659,-0.04290573642294648,point diagnostic only; support is not accuracy
+built-up surroundings,2–5 km,unsupported,15,31,-0.8883369279982063,-0.9079075194241708,-0.019570591425964512,point diagnostic only; support is not accuracy
+built-up surroundings,5–10 km,supported,22,81,-1.2013182944113836,-0.7041117970536395,0.49720649735774414,point diagnostic only; support is not accuracy
+built-up surroundings,5–10 km,unsupported,59,81,-0.609035365401844,-0.8016853620059526,-0.19264999660410864,point diagnostic only; support is not accuracy
+built-up surroundings,≥ 10 km,supported,18,189,-1.431383868098691,-1.1523787180582683,0.2790051500404227,point diagnostic only; support is not accuracy
+built-up surroundings,≥ 10 km,unsupported,171,189,-0.7515680592037146,-0.6072892004362151,0.14427885876749946,point diagnostic only; support is not accuracy

@@ -1,0 +1,2 @@
+setting,pixels,water_m3_year,matched_cooling_C,matched_conditional_m3_year_per_C,model_B_cooling_C,model_B_substitution_m3_year_per_C,substitution_over_matched_ratio,model_B_supported_cells,model_B_matched_cells,note
+outside the built-up area,9,14673.265714285717,-10.029098437524045,1463.069268458413,-2.7856642150878907,5267.420830842227,3.600253893920095,0,75,"Alternative denominator, not an independently validated causal estimate or irrigation envelope"
