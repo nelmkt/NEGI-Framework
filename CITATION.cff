@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 
-title: "A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening-Energy Trade-Offs in Desalination-Dependent Cities: Spatial Validation and Metric Diagnostics in a Jeddah Case Study"
+title: "Wahaj: A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening-Energy Trade-Offs in Desalination-Dependent Cities, with a Jeddah Case Study"
 
 message: "If you use this software, please cite both the accompanying publication and this repository."
 
@@ -11,14 +11,14 @@ authors:
     given-names: Nelly F.
     orcid: "https://orcid.org/0009-0007-9887-0280"
 
-repository-code: "https://github.com/nelmkt/greening-energy-ml-framework"
+repository-code: "https://github.com/nelmkt/Wahaj-Framework"
 
 license: MIT
 
-version: "2.0.0"
+version: "2.0.1"
 
 abstract: >
-  A reproducible Python and Google Earth Engine framework for evaluating
+  Wahaj is a reproducible Python and Google Earth Engine framework for evaluating
   urban greening-energy trade-offs in desalination-dependent cities:
   Landsat processing, an XGBoost land surface temperature model scored by
   spatial cross-validation, a matched-contrast benchmark, counterfactual

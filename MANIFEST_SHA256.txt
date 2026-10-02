@@ -1,4 +1,4 @@
-# sha256  bytes  path. Not listed: this manifest, LICENSE and .gitignore (unchanged in the repository).
+# sha256  bytes  path. Not listed: this manifest, LICENSE, .gitignore and docs/Wahaj_Manuscript_numeric_audit.md (added after the commit the paper cites).
 # The two .gz files decompress to code/gee/panel.csv and code/gee/panel_jun_sep.csv with these hashes:
 #   38bef0da3bc8f4df44e4d9fea152155326c2dc7121c4eb11870a2dd82d54d406     8592932  code/gee/panel.csv
 #   fe8f6c1aed119ffc1d3bc8096543fbda4f7952ace8f0ec10dfb58f5f688bb81b     9338018  code/gee/panel_jun_sep.csv
@@ -268,10 +268,9 @@ a5987e4cf6b211e808f2bb62eedca91399730a1e9d210ca2d5f7c74da0e59cc1        4217  do
 a683f5b69f155f653e4a95c122445acb5a3114baca5c384d30ebd6e502b8c694       32669  docs/FILE_GUIDE.md
 1c1f70a1ad4f507162a2565c6aa7e844dbf60bad6cbfe5140daa004a717ba2af        5584  docs/MATH_CHECK_V11.md
 0c4a5283aa21a9709fd12c4b0aec8fb5621ab085cde137e701e0bd37a0857063       10914  docs/NEGI_LOGIC_AUDIT_V11.md
-15a4770408420324d8cc3a4c01439fa0cf20501fc248883af093f79f04a22b2b       41797  docs/NUMERIC_AUDIT_FRAMEWORK_V11B.md
 52f57787489e9eab795a5c9a366b21ccf9813572764f4ebb611d69c65a66d29b       10210  docs/PORTABILITY_AUDIT_V11.md
-b9e16da8e7832888f0884560ce0d3c8d795139c49b70a41821db75c4e89e5e36        7058  README.md
-5ae3d2dc5ac904cfca3dd4adb6a002e7774239a11bda6c0764b5d3169a304a08        1315  CITATION.cff
-b3341f821ef75e870808820900f159c034e479215d9e461116e55c2700e2fcc0        1413  CHANGELOG.md
-797e524933fbcde6fae8e26b12cfe594acea7b467d48a5c6ea74b0acee96c5cc       28310  REPRODUCE.md
+f0917b8d3320628f56d2c7a5778c6538fe15e4341aa262ba66db6cc802a84b1e       14214  README.md
+830f2a527d8fe2718b82b79205aa099203f756d8b81433ec7f22d258187fde9b        1278  CITATION.cff
+63cd24d5538022f46e991e87146a0b31ec73c1e1381403cd9c717b6b44219934        1865  CHANGELOG.md
+fd7564ffc05be0d33205118f7bc5de10d50061437a71e23c6cd539cab619ee60       28312  REPRODUCE.md
 0584d40361e3a913916a01e9614c3b815db0019b702ea6376cd2796e948b1046         993  requirements.txt

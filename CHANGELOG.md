@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.1 (2 October 2026), branch `v11-framework-ml`
+
+- The framework is named Wahaj; the repository is renamed `Wahaj-Framework`. NEGI remains the name of the index.
+- `README.md` rewritten with corrected paths, badges, licence and contact; `CITATION.cff` updated.
+- `docs/NUMERIC_AUDIT_FRAMEWORK_V11B.md` replaced by `docs/Wahaj_Manuscript_numeric_audit.md`, the audit of the submitted paper.
+- No code, table or figure changed.
+
 ## 2.0.0 (2 October 2026), branch `v11-framework-ml`
 
 Reorganised the repository around the framework described in the paper.
@@ -21,7 +28,7 @@ Known gaps
 
 - `tables/imagery_sampling_key_v7.csv` is withheld (blinded review key); two tests and one layout assertion are expected to fail for that reason and because of the added folders.
 - The paper itself is not in the repository.
-- Author placeholders remain in `README.md` (paper reference, DOI, contact).
+- The paper reference and DOI will be added to `README.md` and `CITATION.cff` after publication.
 
 ## 1.0.0 (July 2026), branch `main`
 
