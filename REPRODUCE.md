@@ -8,7 +8,7 @@ Read this first:
 - Decompress `code/gee/panel.csv.gz` and `code/gee/panel_jun_sep.csv.gz` first (see README.md).
 - Most follow-up scripts refuse to overwrite an existing output. `run_framework.py` writes into `tables/` and the figure folders; run it in a copy to keep the shipped tables.
 - Scripts under `code/gee/` that export from Google Earth Engine need an Earth Engine account and project. The saved exports they produced are in `code/gee/`.
-- The number-by-number audit of the paper is `docs/Wahj_Manuscript_numeric_audit.md`. The paper itself and its build script are not in the repository.
+- The number-by-number audit of the paper is `docs/Wahaj_Manuscript_numeric_audit.md`. The paper itself and its build script are not in the repository.
 ## A. Values from saved tables
 
 Rows are file line numbers; the header is row 1.
