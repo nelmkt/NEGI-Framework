@@ -1,19 +1,19 @@
-# Wahaj: remote sensing and machine learning for urban greening–energy trade-offs
+# Wahj: remote sensing and machine learning for urban greening–energy trade-offs
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![XGBoost 3.4](https://img.shields.io/badge/XGBoost-3.4-EB5E28?style=flat)](https://xgboost.readthedocs.io/)
 [![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Landsat%208%20C2%20L2-4285F4?style=flat&logo=googleearth&logoColor=white)](https://earthengine.google.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](LICENSE)
-[![Version 2.0.0](https://img.shields.io/badge/version-2.0.0-informational?style=flat)](https://github.com/nelmkt/Wahaj-Framework/releases/tag/v2.0.0)
+[![Version 2.0.1](https://img.shields.io/badge/version-2.0.1-informational?style=flat)](https://github.com/nelmkt/Wahj-Framework/releases/tag/v2.0.1)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--9887--0280-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-9887-0280)
 [![Email](https://img.shields.io/badge/Email-nalmaktoum0001%40stu.kau.edu.sa-D14836?style=flat&logo=gmail&logoColor=white)](mailto:nalmaktoum0001@stu.kau.edu.sa)
 
 Code, saved Earth Engine exports, figures and result tables for the paper
 
-> **Wahaj: A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening–Energy Trade-Offs in Desalination-Dependent Cities, with a Jeddah Case Study**
+> **Wahj: A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening–Energy Trade-Offs in Desalination-Dependent Cities, with a Jeddah Case Study**
 > Nelly F. Almaktoum
 
-Wahaj is the framework described in the paper. It asks whether an XGBoost model that predicts land surface temperature (LST) can also predict the *change* associated with greening. It compares model diagnostics with matched satellite contrasts, then illustrates the water and energy implied by assumed irrigation. **Jeddah is the only city analysed.** This is neither a measured irrigation ledger nor a validated model for selecting a new greening site.
+Wahj is the framework described in the paper. It asks whether an XGBoost model that predicts land surface temperature (LST) can also predict the *change* associated with greening. It compares model diagnostics with matched satellite contrasts, then illustrates the water and energy implied by assumed irrigation. **Jeddah is the only city analysed.** This is neither a measured irrigation ledger nor a validated model for selecting a new greening site.
 
 ## Contents
 
@@ -75,7 +75,7 @@ docs/
   MATH_CHECK_V11.md                leverage shares and the own-only vs joint identity
   NEGI_LOGIC_AUDIT_V11.md          what the index module computes, line by line
   PORTABILITY_AUDIT_V11.md         what is Jeddah-specific in the code
-  Wahaj_Manuscript_numeric_audit.md  each number in the paper checked against its table
+  Wahj_Manuscript_numeric_audit.md  each number in the paper checked against its table
 ```
 
 To find a script or table, start with [`docs/FILE_GUIDE.md`](docs/FILE_GUIDE.md). The paper itself is not in this repository.
@@ -145,7 +145,7 @@ The author reported **62 passing tests and a passing claims audit** on the full 
 
 No test result by itself establishes parallel trends, irrigation identity, interval coverage or a physical cooling mechanism.
 
-Two further checks are recorded in `docs/`: the [math check](docs/MATH_CHECK_V11.md) (leverage shares and the own-only against joint identity, residual at most 1.1e-15) and the [numeric audit](docs/Wahaj_Manuscript_numeric_audit.md) of the paper's numbers against these tables.
+Two further checks are recorded in `docs/`: the [math check](docs/MATH_CHECK_V11.md) (leverage shares and the own-only against joint identity, residual at most 1.1e-15) and the [numeric audit](docs/Wahj_Manuscript_numeric_audit.md) of the paper's numbers against these tables.
 
 ## Data availability
 
@@ -156,19 +156,19 @@ Landsat 8 Collection 2 Level-2 imagery is public through Google Earth Engine. Th
 
 ## Earlier version
 
-The [`main`](https://github.com/nelmkt/Wahaj-Framework/tree/main) branch holds the first version of this project (a surrogate pipeline with scenario and NEGI values from July 2026). Those scenario and index values are withdrawn: the surrogate behind them was never tested against measured change. They are kept for the record and are not used by the paper. See [`CHANGELOG.md`](CHANGELOG.md).
+The [`main`](https://github.com/nelmkt/Wahj-Framework/tree/main) branch holds the first version of this project (a surrogate pipeline with scenario and NEGI values from July 2026). Those scenario and index values are withdrawn: the surrogate behind them was never tested against measured change. They are kept for the record and are not used by the paper. See [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Citation
 
 If you use this code or these tables, please cite the repository. The paper reference and DOI will be added when available. Machine-readable metadata is in [`CITATION.cff`](CITATION.cff) (GitHub shows it under "Cite this repository").
 
 ```bibtex
-@software{almaktoum_wahaj_2026,
+@software{almaktoum_wahj_2026,
   author  = {Almaktoum, Nelly F.},
-  title   = {Wahaj: A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening--Energy Trade-Offs in Desalination-Dependent Cities, with a Jeddah Case Study},
+  title   = {Wahj: A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening--Energy Trade-Offs in Desalination-Dependent Cities, with a Jeddah Case Study},
   year    = {2026},
-  version = {2.0.0},
-  url     = {https://github.com/nelmkt/Wahaj-Framework}
+  version = {2.0.1},
+  url     = {https://github.com/nelmkt/Wahj-Framework}
 }
 ```
 
@@ -180,4 +180,4 @@ Released under the [MIT License](LICENSE), © 2026 Nelly F. Almaktoum. The licen
 
 Nelly F. Almaktoum · [nalmaktoum0001@stu.kau.edu.sa](mailto:nalmaktoum0001@stu.kau.edu.sa) · [ORCID 0009-0007-9887-0280](https://orcid.org/0009-0007-9887-0280)
 
-Questions and bug reports are also welcome through the repository's [issues](https://github.com/nelmkt/Wahaj-Framework/issues).
+Questions and bug reports are also welcome through the repository's [issues](https://github.com/nelmkt/Wahj-Framework/issues).
