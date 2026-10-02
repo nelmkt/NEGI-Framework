@@ -103,7 +103,7 @@ The main entry point is [`code/src/run_framework.py`](code/src/run_framework.py)
 
 Work **in a copy** of the repository: the main pipeline writes tables and figures, and several follow-up scripts refuse to overwrite saved outputs. Python 3.12 was used.
 
-**1. Install.** [`requirements.txt`](requirements.txt) lists the packages. It differs from [`code/src/requirements.txt`](code/src/requirements.txt) in one pin (pandas 3.0.6 against 3.0.1; which one produced the saved tables is not confirmed) and adds `openpyxl`, `threadpoolctl` and `earthengine-api`.
+**1. Install.** [`requirements.txt`](requirements.txt) lists the packages. It differs from [`code/src/requirements.txt`](code/src/requirements.txt) in one pin (pandas 3.0.3, the version in the author's environment, against 3.0.1) and adds `openpyxl`, `threadpoolctl` and `earthengine-api`.
 
 ```powershell
 python -m venv .venv

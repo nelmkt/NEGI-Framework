@@ -1,8 +1,8 @@
 # Derived from the import statements in code/src, code/gee, code/negi_original and manuscript/*.py.
-# Versions are those installed in the author's environment on 2026-10-02 (read with importlib.metadata).
+# Versions are those of the author's environment (2026-10-02).
 # They agree with code/src/requirements.txt except pandas, which that file pins as 3.0.1.
 numpy==2.5.3
-pandas==3.0.6            # code/src/requirements.txt says 3.0.1; installed version was 3.0.6 [AUTHOR TO VERIFY which was used for the saved tables]
+pandas==3.0.3            # confirmed by the author; code/src/requirements.txt pins 3.0.1
 scipy==1.18.1
 scikit-learn==1.9.1
 xgboost==3.4.1
