@@ -1,57 +1,183 @@
 # Remote sensing and machine learning for urban greening–energy trade-offs
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![XGBoost 3.4](https://img.shields.io/badge/XGBoost-3.4-EB5E28?style=flat)](https://xgboost.readthedocs.io/)
+[![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Landsat%208%20C2%20L2-4285F4?style=flat&logo=googleearth&logoColor=white)](https://earthengine.google.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](LICENSE)
+[![Version 2.0.0](https://img.shields.io/badge/version-2.0.0-informational?style=flat)](CHANGELOG.md)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0007--9887--0280-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-9887-0280)
+[![Email](https://img.shields.io/badge/Email-nalmaktoum0001%40stu.kau.edu.sa-D14836?style=flat&logo=gmail&logoColor=white)](mailto:nalmaktoum0001@stu.kau.edu.sa)
 
-Code, saved Earth Engine exports, figures and result tables for the Jeddah case study accompanying **“A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening–Energy Trade-Offs in Desalination-Dependent Cities: Spatial Validation and Metric Diagnostics in a Jeddah Case Study”** by Nelly F. Almaktoum.
+Code, saved Earth Engine exports, figures and result tables for the paper
 
-The package asks whether an XGBoost model that predicts land surface temperature (LST) can also predict the *change* associated with greening. It compares model diagnostics with matched satellite contrasts, then illustrates the water and energy implied by assumed irrigation. **Jeddah is the only city analysed.** This is neither a measured irrigation ledger nor a validated model for selecting a new greening site.
+> **A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening–Energy Trade-Offs in Desalination-Dependent Cities: Spatial Validation and Metric Diagnostics in a Jeddah Case Study**
+> Nelly F. Almaktoum
+
+The framework asks whether an XGBoost model that predicts land surface temperature (LST) can also predict the *change* associated with greening. It compares model diagnostics with matched satellite contrasts, then illustrates the water and energy implied by assumed irrigation. **Jeddah is the only city analysed.** This is neither a measured irrigation ledger nor a validated model for selecting a new greening site.
+
+## Contents
+
+- [Results and their populations](#results-and-their-populations)
+- [Repository structure](#repository-structure)
+- [What the code contains](#what-the-code-contains)
+- [Interpretation and portability](#interpretation-and-portability)
+- [Reproduction](#reproduction)
+- [Tests and checks](#tests-and-checks)
+- [Data availability](#data-availability)
+- [Earlier version](#earlier-version)
+- [Citation](#citation)
+- [Licence](#licence)
+- [Contact](#contact)
 
 ## Results and their populations
 
 | Result | Saved value | Source and limit |
 | --- | --- | --- |
-| XGBoost absolute-LST prediction | Spatial GroupKFold R² **0.795**, RMSE **1.184 °C**, MAE **0.903 °C**, on **19,650** non-greened cells | [`model_cv.csv`](tables/model_cv.csv), row 2. Skill on LST levels does **not** validate predicted greening effects. |
-| Primary matched outside-area slope | **−1.181 °C per greened pixel** among **1,006** matched cells | [`headline_block_v8.csv`](tables/headline_block_v8.csv), row 2. A zero-intercept, dose-weighted summary in sampled, often contiguous blocks—not the marginal effect of a new isolated pixel. |
-| Leverage concentration | One spatial block carries **55.7%** of pooled squared-dose leverage | Same table, row 2. Bootstrap and jackknife coverage is unproven. |
-| Small-patch own-only slope | **−1.925 °C per own pixel** among **419** primary matched outside 1–2-pixel cells | Same table, row 3; [algebraic check](tables_revision_v11/own_only_vs_joint_identity_v11.csv). The own-only coefficient absorbs co-varying neighbour greening within the specified regression; it is not evidence of a larger physical effect per pixel. |
+| XGBoost absolute-LST prediction | Spatial GroupKFold R² **0.795**, RMSE **1.184 °C**, MAE **0.903 °C**, on **19,650** non-greened cells | [`model_cv.csv`](tables/model_cv.csv). Skill on LST levels does **not** validate predicted greening effects. |
+| Primary matched outside-area slope | **−1.181 °C per greened pixel** among **1,006** matched cells | [`headline_block_v8.csv`](tables/headline_block_v8.csv), row `all`. A zero-intercept, dose-weighted summary in sampled, often contiguous blocks, not the marginal effect of a new isolated pixel. |
+| Leverage concentration | One spatial block carries **55.7%** of pooled squared-dose leverage | Same table, row `all`. Bootstrap and jackknife coverage is unproven. |
+| Small-patch own-only slope | **−1.925 °C per own pixel** among **419** primary matched outside cells with 1–2 greened pixels | Same table, row `1–2`; [algebraic check](tables_revision_v11/own_only_vs_joint_identity_v11.csv). The own-only coefficient absorbs co-varying neighbour greening within the specified regression (joint own coefficients −1.036 to −0.988); it is not evidence of a larger physical effect per pixel. |
 | Model B outside support | **14/744** cells pass the feature-space screen, including **0/75** fully greened cells | [`test_support_counts.csv`](tables/test_support_counts.csv), outside rows. This is the **narrower concurrent-change sensitivity**, not the 1,006-cell primary population. |
 | Model B minus measured outside contrast | **+1.01 to +7.24 °C** across dose classes | [`test_by_dose.csv`](tables/test_by_dose.csv), outside Model B rows. The gap grows with dose; the model does not corroborate that outside gradient. |
 
-The 1,006-cell matched estimate and 744-cell model diagnostics use different treated populations. They must not be read as one validation result. The small-patch exposure analyses are descriptive: the available data do not separate thermal-pixel blur, edge effects, neighbour cooling and neighbourhood confounding. The within-90 m ordering is **not resolved**.
+The 1,006-cell matched estimate and the 744-cell model diagnostics use different treated populations. They must not be read as one validation result. The small-patch exposure analyses are descriptive: the available data do not separate thermal-pixel blur, edge effects, neighbour cooling and neighbourhood confounding. The within-90 m ordering is **not resolved**.
+
+![Model skill on held-out areas, and model-predicted against measured cooling by number of greened pixels](figures_png/fig3_model_test.png)
+
+*Model test ([`fig3_model_test.png`](figures_png/fig3_model_test.png)). Panel a: predicted against observed summer LST with areas held out. Panels b and c: measured cooling and the two model versions by dose class. Outside the built-up area, Model B falls further short of the measured contrast as the dose rises.*
+
+Because the model failed these checks, the framework released no model-based scenario and **no value of the Normalized Environmental Gain Index (NEGI) is reported**.
+
+## Repository structure
+
+```
+README.md            this file
+LICENSE              MIT licence
+CITATION.cff         citation metadata
+CHANGELOG.md         what changed and when
+REPRODUCE.md         each reported number -> table, script, command
+requirements.txt     Python packages and versions
+MANIFEST_SHA256.txt  SHA256 and size of every file
+
+code/
+  gee/               Earth Engine export scripts and the saved exports (inputs)
+  src/               framework modules, analysis scripts, figure scripts, tests
+  negi_original/     earlier index module (NEGI definitions; not run for the paper)
+
+tables/              result tables (CSV, JSON)
+tables_revision_v11/ two algebraic checks added for the paper
+figures_png/         figures (PNG)
+figures_pdf/         figures (PDF)
+
+docs/
+  FILE_GUIDE.md                    every script and table, grouped by purpose, in reading order
+  DATA.md                          data sources, panel columns, what is withheld
+  MATH_CHECK_V11.md                leverage shares and the own-only vs joint identity
+  NEGI_LOGIC_AUDIT_V11.md          what the index module computes, line by line
+  PORTABILITY_AUDIT_V11.md         what is Jeddah-specific in the code
+  NUMERIC_AUDIT_FRAMEWORK_V11B.md  each number in the paper checked against its table
+```
+
+To find a script or table, start with [`docs/FILE_GUIDE.md`](docs/FILE_GUIDE.md). The paper itself is not in this repository.
 
 ## What the code contains
 
 | Stage | Files | Role |
 | --- | --- | --- |
-| Satellite panel | [`code/gee/export_panel.py`](code/gee/export_panel.py), [`panel.csv`](code/gee/panel.csv), [`panel_meta.json`](code/gee/panel_meta.json) | Cloud-screened Landsat 8 Collection 2 Level-2 optical/LST composites on aligned 90 m cells for 2014, 2015, 2018, 2019, 2024 and 2025. [`panel_jun_sep.csv`](code/gee/panel_jun_sep.csv) is a common-month sensitivity. |
+| Satellite panel | [`export_panel.py`](code/gee/export_panel.py), [`panel.csv.gz`](code/gee/panel.csv.gz), [`panel_meta.json`](code/gee/panel_meta.json) | Cloud-screened Landsat 8 Collection 2 Level-2 optical and LST composites on aligned 90 m cells for 2014, 2015, 2018, 2019, 2024 and 2025. [`panel_jun_sep.csv.gz`](code/gee/panel_jun_sep.csv.gz) is a common-month sensitivity. |
 | Matched contrasts | [`fw_panel.py`](code/src/fw_panel.py), [`fw_matching.py`](code/src/fw_matching.py) | Pre-treatment-strata matched comparison with never-vegetated controls and spatial-block resampling; follow-up scripts inspect leverage, isolation and exposure. |
 | ML diagnostic | [`fw_model.py`](code/src/fw_model.py), [`fw_validate.py`](code/src/fw_validate.py) | XGBoost absolute-LST prediction, spatial cross-validation, feature-support screening and effect comparison. Absolute-LST skill alone does not license a counterfactual effect. |
-| Conditional resource accounting | [`fw_ledger.py`](code/src/fw_ledger.py), [`fw_decision.py`](code/src/fw_decision.py) | Reference ET, assumed landscape coefficient and irrigation efficiency, and assumed water-source energy intensities. The per-degree ratios are largely rescalings of cooling per area under shared irrigation depth—not a resource ranking or net-energy benefit. |
-| Earlier index module | [`NEGI_Framework.py`](code/negi_original/NEGI_Framework.py) | Historical pathway/NEGI definitions. Its earlier scenario and index values are not reported as validated findings here. This module is separate from `fw_decision.py`. |
+| Conditional resource accounting | [`fw_ledger.py`](code/src/fw_ledger.py), [`fw_decision.py`](code/src/fw_decision.py) | Reference ET, assumed landscape coefficient and irrigation efficiency, and assumed water-source energy intensities. The per-degree ratios are largely rescalings of cooling per area under a shared irrigation depth, not a resource ranking or a net-energy benefit. |
+| Earlier index module | [`NEGI_Framework.py`](code/negi_original/NEGI_Framework.py) | Historical pathway and NEGI definitions. Its earlier scenario and index values are not reported as validated findings here. This module is separate from `fw_decision.py`. |
 
-The full working package also contains `tables/`, `tables_revision_v11/`, `figures_png/`, `figures_pdf/` and `manuscript/`. The nested `github_release_v11*` folders are **publication staging copies**; their contents do not replace the source folders above. The two panels in this full package are already uncompressed. Do not run a decompression command over them.
+The main entry point is [`code/src/run_framework.py`](code/src/run_framework.py).
 
 ## Interpretation and portability
 
-- LST is **surface temperature**, not air temperature, thermal comfort, building electricity savings or population benefit. Satellite overpass cooling and annual irrigation have different time bases.
+- LST is **surface temperature**, not air temperature, thermal comfort, building electricity savings or population benefit. Satellite-overpass cooling and annual irrigation have different time bases.
 - NDVI-defined greening is **not verified managed irrigation**. Persistent vegetation may also draw on groundwater, wadi flow or discharge. No water-meter, planting-history or building-energy observations establish the resource ledger.
-- The model's outside support is sparse, its dose-gradient error grows, and no practical effect-error tolerance was prespecified. This package presents no decision-ready model-based scenario or NEGI value.
-- “Similar city” means a hot arid or semi-arid city with comparable optical and thermal satellite coverage, identifiable vegetation transitions, enough eligible bare controls and a relevant desalination or treated-wastewater supply context. That is a candidate for *adapting the workflow*, not for importing Jeddah's estimates. The seasonal windows, classification and matching thresholds, coastline, spatial blocks, ML model/support domain and water–energy assumptions all need local justification. **The Jeddah estimates, fitted model and hypothetical ledger do not transfer.**
+- The model's outside support is sparse, its dose-gradient error grows, and no practical effect-error tolerance was prespecified. This repository presents no decision-ready model-based scenario or NEGI value.
+- "Similar city" means a hot arid or semi-arid city with comparable optical and thermal satellite coverage, identifiable vegetation transitions, enough eligible bare controls and a relevant desalination or treated-wastewater supply context. That is a candidate for *adapting the workflow*, not for importing Jeddah's estimates. The seasonal windows, classification and matching thresholds, coastline, spatial blocks, model and support domain, and water–energy assumptions all need local justification. **The Jeddah estimates, fitted model and hypothetical ledger do not transfer.** See [`docs/PORTABILITY_AUDIT_V11.md`](docs/PORTABILITY_AUDIT_V11.md).
 
-## Reproduction and checks
+## Reproduction
 
-Work from this package root **in a copy**: the main pipeline writes tables and figures, and several follow-up scripts refuse to overwrite saved outputs. Python 3.12 was used. The full source dependency list is [`code/src/requirements.txt`](code/src/requirements.txt); the [publication staging requirements](github_release_v11c/requirements.txt) additionally list Earth Engine and document-building packages and note a pandas-version discrepancy. Earth Engine exports require an authenticated project; the saved panels mean Earth Engine is not needed to inspect the current tables.
+Work **in a copy** of the repository: the main pipeline writes tables and figures, and several follow-up scripts refuse to overwrite saved outputs. Python 3.12 was used.
+
+**1. Install.** [`requirements.txt`](requirements.txt) lists the packages. It differs from [`code/src/requirements.txt`](code/src/requirements.txt) in one pin (pandas 3.0.6 against 3.0.1; which one produced the saved tables is not confirmed) and adds `openpyxl`, `threadpoolctl` and `earthengine-api`.
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install -r code/src/requirements.txt
+python -m pip install -r requirements.txt
+```
+
+On macOS or Linux, activate with `source .venv/bin/activate`.
+
+**2. Decompress the panels.** The two cell panels are stored as `.gz`. Decompress them once, in place:
+
+```powershell
+python -c "import gzip,shutil; [shutil.copyfileobj(gzip.open(f'code/gee/{n}.gz','rb'), open(f'code/gee/{n}','wb')) for n in ('panel.csv','panel_jun_sep.csv')]"
+```
+
+Their SHA256 values after decompression are in [`MANIFEST_SHA256.txt`](MANIFEST_SHA256.txt).
+
+**3. Run the framework** from the repository root:
+
+```powershell
 python code/src/run_framework.py --panel code/gee/panel.csv --out .
 ```
 
-The author reported **62 passing tests and a passing claims audit** on the then-current full v11 package on 2 October 2026. We did **not** rerun them while preparing this README, and those results do not verify the present expanded directory layout. The strict claims audit expects the earlier five-folder release root and may flag the nested publication staging folders. The blinded imagery key is present in this **local** working package but must remain unopened; it should be withheld from a public release. The [reproduction guide](github_release_v11c/REPRODUCE.md) records the commands and provenance for individual tables. No test result by itself establishes parallel trends, irrigation identity, interval coverage or a physical cooling mechanism.
+Follow-up analyses are separate scripts in `code/src`. [`REPRODUCE.md`](REPRODUCE.md) gives the table, script and command behind each reported number.
 
-## Citation, licence and contact
+Earth Engine is not needed to inspect or recompute the tables, because the exports are saved in `code/gee`. Re-exporting the panel with `code/gee/export_panel.py` needs an authenticated Earth Engine project.
 
-The staged [`CITATION.cff`](github_release_v11c/CITATION.cff) identifies the software and author; add the final paper reference and DOI only when available. **Licence needs reconciliation before publication:** the staged citation metadata says MIT, but the full package has no matching licence file at its root. Do not infer redistribution terms from the badge in an earlier README draft.
-Contact: [Nelly F. Almaktoum](mailto:nalmaktoum0001@stu.kau.edu.sa).
+## Tests and checks
+
+```powershell
+$env:PYTHONDONTWRITEBYTECODE = "1"
+python -m pytest code/src -p no:cacheprovider
+```
+
+The author reported **62 passing tests and a passing claims audit** on the full local package on 2 October 2026. They were **not** rerun on this repository layout. Three checks are expected to fail here, for layout reasons only:
+
+- `code/src/test_followup_v7.py` and `code/src/test_v8.py` look for `tables/imagery_sampling_key_v7.csv`, which is withheld.
+- `code/src/audit_claims.py` asserts the earlier five-folder layout; this repository adds `docs/`, `tables_revision_v11/`, `code/negi_original/` and root files.
+
+No test result by itself establishes parallel trends, irrigation identity, interval coverage or a physical cooling mechanism.
+
+Two further checks are recorded in `docs/`: the [math check](docs/MATH_CHECK_V11.md) (leverage shares and the own-only against joint identity, residual at most 1.1e-15) and the [numeric audit](docs/NUMERIC_AUDIT_FRAMEWORK_V11B.md) of the paper's numbers against these tables.
+
+## Data availability
+
+Landsat 8 Collection 2 Level-2 imagery is public through Google Earth Engine. The exports used here are in `code/gee/`; sources, identifiers and column meanings are in [`docs/DATA.md`](docs/DATA.md).
+
+- **Assumed, not measured:** water and energy figures in `tables/water.csv`, `tables/energy.csv` and `tables/decision_*.csv`.
+- **Withheld:** `tables/imagery_sampling_key_v7.csv`, the blinded key of an imagery review that is not complete. The unlabelled review queue is included.
+
+## Earlier version
+
+The [`main`](https://github.com/nelmkt/greening-energy-ml-framework/tree/main) branch holds the first version of this project (a surrogate pipeline with scenario and NEGI values from July 2026). Those scenario and index values are withdrawn: the surrogate behind them was never tested against measured change. They are kept for the record and are not used by the paper. See [`CHANGELOG.md`](CHANGELOG.md).
+
+## Citation
+
+If you use this code or these tables, please cite the repository. The paper reference and DOI will be added when available. Machine-readable metadata is in [`CITATION.cff`](CITATION.cff) (GitHub shows it under "Cite this repository").
+
+```bibtex
+@software{almaktoum_greening_energy_ml_framework_2026,
+  author  = {Almaktoum, Nelly F.},
+  title   = {A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening--Energy Trade-Offs in Desalination-Dependent Cities: Spatial Validation and Metric Diagnostics in a Jeddah Case Study},
+  year    = {2026},
+  version = {2.0.0},
+  url     = {https://github.com/nelmkt/greening-energy-ml-framework}
+}
+```
+
+## Licence
+
+Released under the [MIT License](LICENSE), © 2026 Nelly F. Almaktoum. The licence covers the code and the files in this repository. Landsat, Dynamic World, SRTM, TerraClimate, GHSL, Natural Earth and Saudi Irrigation Organization data remain under their providers' own terms; see [`docs/DATA.md`](docs/DATA.md).
+
+## Contact
+
+Nelly F. Almaktoum · [nalmaktoum0001@stu.kau.edu.sa](mailto:nalmaktoum0001@stu.kau.edu.sa) · [ORCID 0009-0007-9887-0280](https://orcid.org/0009-0007-9887-0280)
+
+Questions and bug reports are also welcome through the repository's [issues](https://github.com/nelmkt/greening-energy-ml-framework/issues).
