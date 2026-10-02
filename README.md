@@ -7,6 +7,7 @@
 Code, data exports and result tables for the paper
 
 > **A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening–Energy Trade-Offs in Desalination-Dependent Cities: Spatial Validation and Metric Diagnostics in a Jeddah Case Study**
+
 > Nelly F. Almaktoum
 
 The framework asks a computational question: when can a machine-learning model of land surface temperature (LST) be trusted to say what greening would do, and what does that imply for comparing cooling with the energy cost of irrigation in a desalination-dependent city? Jeddah, Saudi Arabia, is the case study.
