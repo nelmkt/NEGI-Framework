@@ -1,7 +1,17 @@
-numpy~=1.26
-pandas~=2.2
-matplotlib~=3.8
-scipy~=1.13
-scikit-learn~=1.5
-xgboost~=2.1
-statsmodels~=0.14
+# Derived from the import statements in code/src, code/gee, code/negi_original and manuscript/*.py.
+# Versions are those installed in the author's environment on 2026-10-02 (read with importlib.metadata).
+# They agree with code/src/requirements.txt except pandas, which that file pins as 3.0.1.
+numpy==2.5.3
+pandas==3.0.6            # code/src/requirements.txt says 3.0.1; installed version was 3.0.6 [AUTHOR TO VERIFY which was used for the saved tables]
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+matplotlib==3.11.2
+joblib==1.6.0
+pytest==9.1.1
+
+# Imported but not listed in code/src/requirements.txt:
+openpyxl==3.1.5          # code/src (reads the .xlsx workbooks)
+threadpoolctl==3.6.0     # code/src
+earthengine-api==1.7.46  # code/gee only; needs a Google Earth Engine account and project
+python-docx              # manuscript/build_manuscript_framework_v11.py and audit_numbers_framework_v11.py; version 1.2.0 was used from a temporary folder, not installed in the main environment

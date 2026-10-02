@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 
-title: "A Decision-Support Framework for Evaluating Urban Greening under Water–Energy Constraints in Desalination-Dependent Cities"
+title: "A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening-Energy Trade-Offs in Desalination-Dependent Cities: Spatial Validation and Metric Diagnostics in a Jeddah Case Study"
 
 message: "If you use this software, please cite both the accompanying publication and this repository."
 
@@ -11,28 +11,29 @@ authors:
     given-names: Nelly F.
     orcid: "https://orcid.org/0009-0007-9887-0280"
 
-repository-code: "https://github.com/nelmkt/NEGI-Framework"
+repository-code: "https://github.com/nelmkt/greening-energy-ml-framework"
 
 license: MIT
 
-version: "1.0.0"
+version: "2.0.0"
 
 abstract: >
-  An open-source Python framework for evaluating urban greening strategies
-  under coupled water–energy constraints using satellite remote sensing,
-  machine learning, spatial validation, uncertainty analysis, and the
-  Normalized Environmental Gain Index (NEGI).
+  A reproducible Python and Google Earth Engine framework for evaluating
+  urban greening-energy trade-offs in desalination-dependent cities:
+  Landsat processing, an XGBoost land surface temperature model scored by
+  spatial cross-validation, a matched-contrast benchmark, counterfactual
+  gates for model-based use, the Normalized Environmental Gain Index (NEGI)
+  with its stated assumptions, and a hypothetical water-energy ledger.
+  Demonstrated on Jeddah, Saudi Arabia.
 
 keywords:
-  - Normalized Environmental Gain Index
-  - NEGI
-  - Urban Heat Island
   - Urban Greening
+  - Land Surface Temperature
   - Remote Sensing
   - Machine Learning
   - XGBoost
-  - Land Surface Temperature
-  - Spatial Validation
+  - Spatial Cross-Validation
+  - Matched Difference-in-Differences
+  - Normalized Environmental Gain Index
   - Google Earth Engine
   - Desalination
-  - Sustainability
