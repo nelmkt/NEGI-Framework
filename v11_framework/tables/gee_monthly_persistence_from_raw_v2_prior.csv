@@ -1,0 +1,9 @@
+setting,dose_class,n_cells,n_at_least_8_of_10_months_adequately_observed,median_adequately_observed_months,median_fraction_green_pixels_ndvi_ge_0_30,share_with_at_least_80pct_high_months_among_adequately_observed,median_monthly_ndvi_range,interpretation
+outside the built-up area,1–2,426,426,10.0,0.9,0.795774647887324,0.1501525,endpoint vegetation persistence only; not an irrigation classifier
+outside the built-up area,3–4,184,184,10.0,0.9333333333333332,0.8804347826086957,0.14204549999999996,endpoint vegetation persistence only; not an irrigation classifier
+outside the built-up area,5–8,244,244,10.0,0.969047619047619,0.9713114754098361,0.15434199999999998,endpoint vegetation persistence only; not an irrigation classifier
+outside the built-up area,9/9,160,160,10.0,1.0,0.99375,0.16959950000000004,endpoint vegetation persistence only; not an irrigation classifier
+built-up surroundings,1–2,252,252,10.0,0.8,0.6666666666666666,0.144454,endpoint vegetation persistence only; not an irrigation classifier
+built-up surroundings,3–4,50,50,10.0,0.9,0.88,0.13758599999999999,endpoint vegetation persistence only; not an irrigation classifier
+built-up surroundings,5–8,16,16,10.0,0.95,0.9375,0.10979249999999999,endpoint vegetation persistence only; not an irrigation classifier
+built-up surroundings,9/9,1,1,10.0,0.9666666666666668,1.0,0.13375200000000004,endpoint vegetation persistence only; not an irrigation classifier

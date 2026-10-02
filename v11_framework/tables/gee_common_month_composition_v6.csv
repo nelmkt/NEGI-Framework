@@ -1,0 +1,119 @@
+setting,group_old,group_new,old_dose,new_dose,southern_belt,n_cells
+built-up surroundings,absent,control,,,no,36
+built-up surroundings,absent,control,,,yes,12
+built-up surroundings,absent,greened,,1–2,no,11
+built-up surroundings,absent,greened,,1–2,yes,2
+built-up surroundings,absent,other,,,no,13
+built-up surroundings,absent,other,,,yes,1
+built-up surroundings,absent,ring,,,no,64
+built-up surroundings,absent,ring,,,yes,5
+built-up surroundings,control,absent,,,no,13
+built-up surroundings,control,absent,,,yes,6
+built-up surroundings,control,control,,,no,4706
+built-up surroundings,control,control,,,yes,612
+built-up surroundings,control,other,,,no,47
+built-up surroundings,control,other,,,yes,3
+built-up surroundings,control,ring,,,no,2
+built-up surroundings,greened,absent,1–2,,no,30
+built-up surroundings,greened,absent,1–2,,yes,4
+built-up surroundings,greened,absent,3–4,,no,3
+built-up surroundings,greened,greened,1–2,1–2,no,181
+built-up surroundings,greened,greened,1–2,1–2,yes,34
+built-up surroundings,greened,greened,1–2,3–4,no,1
+built-up surroundings,greened,greened,3–4,1–2,no,4
+built-up surroundings,greened,greened,3–4,1–2,yes,1
+built-up surroundings,greened,greened,3–4,3–4,no,39
+built-up surroundings,greened,greened,3–4,3–4,yes,3
+built-up surroundings,greened,greened,5–8,3–4,no,1
+built-up surroundings,greened,greened,5–8,5–8,no,13
+built-up surroundings,greened,greened,5–8,5–8,yes,2
+built-up surroundings,greened,greened,9/9,9/9,no,1
+built-up surroundings,greened,other,1–2,,no,2
+built-up surroundings,other,absent,,,no,19
+built-up surroundings,other,absent,,,yes,2
+built-up surroundings,other,control,,,no,62
+built-up surroundings,other,control,,,yes,10
+built-up surroundings,other,greened,,3–4,no,1
+built-up surroundings,other,other,1–2,1–2,no,10
+built-up surroundings,other,other,3–4,3–4,no,3
+built-up surroundings,other,other,3–4,3–4,yes,1
+built-up surroundings,other,other,5–8,5–8,no,1
+built-up surroundings,other,other,,,no,2408
+built-up surroundings,other,other,,,yes,173
+built-up surroundings,other,ring,,,no,4
+built-up surroundings,ring,absent,,,no,168
+built-up surroundings,ring,absent,,,yes,25
+built-up surroundings,ring,control,,,no,12
+built-up surroundings,ring,other,,,no,7
+built-up surroundings,ring,ring,,,no,1304
+built-up surroundings,ring,ring,,,yes,178
+outside the built-up area,absent,control,,,no,15
+outside the built-up area,absent,control,,,yes,8
+outside the built-up area,absent,greened,,1–2,no,6
+outside the built-up area,absent,greened,,1–2,yes,7
+outside the built-up area,absent,greened,,3–4,no,3
+outside the built-up area,absent,greened,,5–8,yes,1
+outside the built-up area,absent,greened,,9/9,yes,1
+outside the built-up area,absent,other,,,no,5
+outside the built-up area,absent,other,,,yes,2
+outside the built-up area,absent,ring,,,no,46
+outside the built-up area,absent,ring,,,yes,14
+outside the built-up area,control,absent,,,no,19
+outside the built-up area,control,absent,,,yes,1
+outside the built-up area,control,control,,,no,9265
+outside the built-up area,control,control,,,yes,1664
+outside the built-up area,control,other,,,no,17
+outside the built-up area,control,other,,,yes,8
+outside the built-up area,greened,absent,1–2,,no,19
+outside the built-up area,greened,absent,1–2,,yes,21
+outside the built-up area,greened,absent,3–4,,no,1
+outside the built-up area,greened,absent,5–8,,yes,4
+outside the built-up area,greened,absent,9/9,,yes,4
+outside the built-up area,greened,greened,1–2,1–2,no,196
+outside the built-up area,greened,greened,1–2,1–2,yes,182
+outside the built-up area,greened,greened,1–2,3–4,yes,3
+outside the built-up area,greened,greened,3–4,1–2,no,13
+outside the built-up area,greened,greened,3–4,1–2,yes,12
+outside the built-up area,greened,greened,3–4,3–4,no,64
+outside the built-up area,greened,greened,3–4,3–4,yes,91
+outside the built-up area,greened,greened,3–4,5–8,yes,3
+outside the built-up area,greened,greened,5–8,1–2,no,1
+outside the built-up area,greened,greened,5–8,3–4,no,6
+outside the built-up area,greened,greened,5–8,3–4,yes,11
+outside the built-up area,greened,greened,5–8,5–8,no,48
+outside the built-up area,greened,greened,5–8,5–8,yes,173
+outside the built-up area,greened,greened,5–8,9/9,yes,1
+outside the built-up area,greened,greened,9/9,5–8,no,1
+outside the built-up area,greened,greened,9/9,5–8,yes,9
+outside the built-up area,greened,greened,9/9,9/9,no,24
+outside the built-up area,greened,greened,9/9,9/9,yes,121
+outside the built-up area,greened,other,1–2,,no,2
+outside the built-up area,greened,other,1–2,,yes,3
+outside the built-up area,greened,other,9/9,5–8,yes,1
+outside the built-up area,other,absent,,,no,8
+outside the built-up area,other,absent,,,yes,1
+outside the built-up area,other,control,,,no,73
+outside the built-up area,other,control,,,yes,15
+outside the built-up area,other,greened,,1–2,no,1
+outside the built-up area,other,greened,,1–2,yes,1
+outside the built-up area,other,other,1–2,1–2,no,13
+outside the built-up area,other,other,1–2,1–2,yes,8
+outside the built-up area,other,other,1–2,,no,1
+outside the built-up area,other,other,1–2,,yes,2
+outside the built-up area,other,other,3–4,1–2,yes,1
+outside the built-up area,other,other,3–4,3–4,no,1
+outside the built-up area,other,other,3–4,3–4,yes,7
+outside the built-up area,other,other,5–8,1–2,yes,1
+outside the built-up area,other,other,5–8,3–4,yes,1
+outside the built-up area,other,other,5–8,5–8,no,3
+outside the built-up area,other,other,5–8,5–8,yes,16
+outside the built-up area,other,other,,,no,1524
+outside the built-up area,other,other,,,yes,518
+outside the built-up area,other,ring,,,yes,3
+outside the built-up area,ring,absent,,,no,85
+outside the built-up area,ring,absent,,,yes,18
+outside the built-up area,ring,control,,,no,3
+outside the built-up area,ring,other,,,no,7
+outside the built-up area,ring,other,,,yes,4
+outside the built-up area,ring,ring,,,no,868
+outside the built-up area,ring,ring,,,yes,309

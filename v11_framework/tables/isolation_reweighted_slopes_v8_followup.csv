@@ -1,0 +1,13 @@
+radius_m,subset,n_cells,n_blocks,status,per_own_pixel_slope_C,lo_C,hi_C,valid_block_draws,calibration_basis,weight_ess,largest_weight_share,max_abs_balanced_mean_error,weighted_southern_belt_share
+90,isolated,76,24,estimate,-1.1356642762376603,-1.3499723422597023,-0.904876322579037,2000,"2014–15 LST, coast km, GHSL own built fraction: linear, square, pairwise",,,,
+90,non-isolated,343,26,estimate,-2.04818052732641,-2.4024399200048916,-1.5655035074472754,2000,"2014–15 LST, coast km, GHSL own built fraction: linear, square, pairwise",,,,
+90,"non-isolated, calibrated",343,26,estimate,-1.8547409730405215,-2.1404286935501307,-1.3337503171351521,1823,"2014–15 LST, coast km, GHSL own built fraction: linear, square, pairwise",257.0939020344583,0.020748882985221855,4.263256414560601e-14,0.4401137874802273
+90,calibrated non-isolated minus isolated,343,26,paired_comparison,-0.7190766968028612,-1.0254574373686713,-0.20324317465407787,1823,paired spatial-block draws; calibration refit,,,,
+180,isolated,38,18,estimate,-0.8794968343928335,-1.210196292357399,-0.550267764113354,2000,"2014–15 LST, coast km, GHSL own built fraction: linear, square, pairwise",,,,
+180,non-isolated,381,27,estimate,-2.0029138216759383,-2.351121730911576,-1.5467044648186368,2000,"2014–15 LST, coast km, GHSL own built fraction: linear, square, pairwise",,,,
+180,"non-isolated, calibrated",381,27,estimate,-1.5706575643629301,-1.9076511040654232,-0.9605749148490627,1938,"2014–15 LST, coast km, GHSL own built fraction: linear, square, pairwise",147.66311010593802,0.03211090331911971,7.105427357601002e-15,0.45393188438537213
+180,calibrated non-isolated minus isolated,381,27,paired_comparison,-0.6911607299700966,-1.1032380610623915,-0.07909461233841128,1938,paired spatial-block draws; calibration refit,,,,
+300,isolated,26,16,estimate,-0.8912999448976597,-1.409887823256761,-0.4252017894801941,2000,"2014–15 LST, coast km, GHSL own built fraction: linear, square, pairwise",,,,
+300,non-isolated,393,28,estimate,-1.9734527004355846,-2.313657771328288,-1.5182425226751164,2000,"2014–15 LST, coast km, GHSL own built fraction: linear, square, pairwise",,,,
+300,"non-isolated, calibrated",393,28,estimate,-1.3985488367059347,-1.780568287199926,-0.7782268372126301,1832,"2014–15 LST, coast km, GHSL own built fraction: linear, square, pairwise",82.68290764892897,0.05602356213147097,4.796163466380676e-14,0.42373845167824803
+300,calibrated non-isolated minus isolated,393,28,paired_comparison,-0.5072488918082749,-0.9988304700017225,0.21881051242335212,1832,paired spatial-block draws; calibration refit,,,,

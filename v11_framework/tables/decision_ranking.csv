@@ -1,0 +1,8 @@
+option_id,share_best_complete_draws,complete_draws,total_draws,note
+outside the built-up area: 1–2,0.9994997498749375,1999,2000,joint bootstrap frequencies conditional on shared irrigation assumptions
+outside the built-up area: 3–4,0.0,1999,2000,joint bootstrap frequencies conditional on shared irrigation assumptions
+outside the built-up area: 5–8,0.0,1999,2000,joint bootstrap frequencies conditional on shared irrigation assumptions
+outside the built-up area: 9,0.0,1999,2000,joint bootstrap frequencies conditional on shared irrigation assumptions
+built-up surroundings: 1–2,0.0005002501250625312,1999,2000,joint bootstrap frequencies conditional on shared irrigation assumptions
+built-up surroundings: 3–4,0.0,1999,2000,joint bootstrap frequencies conditional on shared irrigation assumptions
+built-up surroundings: 5–8,0.0,1999,2000,joint bootstrap frequencies conditional on shared irrigation assumptions

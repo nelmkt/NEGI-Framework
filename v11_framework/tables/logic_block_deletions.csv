@@ -1,0 +1,449 @@
+setting,specification,dose_class,deleted_block,deleted_matched_treated,deleted_dose_squared_share,per_pixel_C,n_matched_after
+outside the built-up area,pre-treatment-only strata,all,781_435,4,0.0014966612940363804,-1.1820542556833211,1002
+outside the built-up area,pre-treatment-only strata,all,782_425,1,3.8375930616317444e-05,-1.180640838340125,1005
+outside the built-up area,pre-treatment-only strata,all,782_435,2,7.675186123263489e-05,-1.1807159348080083,1004
+outside the built-up area,pre-treatment-only strata,all,783_424,6,0.002302555836979047,-1.1821936093586436,1000
+outside the built-up area,pre-treatment-only strata,all,783_425,1,0.000345383375546857,-1.1808146862940925,1005
+outside the built-up area,pre-treatment-only strata,all,783_426,1,0.00015350372246526978,-1.1806859743458227,1005
+outside the built-up area,pre-treatment-only strata,all,783_432,2,0.00019187965308158723,-1.1807477102540778,1004
+outside the built-up area,pre-treatment-only strata,all,783_435,7,0.007099547164018728,-1.1878488380725067,999
+outside the built-up area,pre-treatment-only strata,all,784_427,5,0.0016501650165016502,-1.1819387710207552,1001
+outside the built-up area,pre-treatment-only strata,all,784_430,6,0.0009593982654079362,-1.1807663480865376,1000
+outside the built-up area,pre-treatment-only strata,all,784_431,3,0.0004221352367794919,-1.1813900765910357,1003
+outside the built-up area,pre-treatment-only strata,all,784_433,1,3.8375930616317444e-05,-1.1804998942398353,1005
+outside the built-up area,pre-treatment-only strata,all,784_434,14,0.002686315143142221,-1.1815564492459543,992
+outside the built-up area,pre-treatment-only strata,all,784_435,1,3.8375930616317444e-05,-1.179754206289881,1005
+outside the built-up area,pre-treatment-only strata,all,785_426,118,0.11117507099547164,-1.1956970270867837,888
+outside the built-up area,pre-treatment-only strata,all,785_427,8,0.001726916877734285,-1.183229285447642,998
+outside the built-up area,pre-treatment-only strata,all,785_429,2,0.00019187965308158723,-1.1804653613562086,1004
+outside the built-up area,pre-treatment-only strata,all,785_430,68,0.08972292578095019,-1.180449898756984,938
+outside the built-up area,pre-treatment-only strata,all,785_431,7,0.0033003300330033004,-1.1848772187293992,999
+outside the built-up area,pre-treatment-only strata,all,785_432,30,0.01531199631591066,-1.1815306109004615,976
+outside the built-up area,pre-treatment-only strata,all,785_433,3,0.0011512779184895234,-1.1809741680059018,1003
+outside the built-up area,pre-treatment-only strata,all,785_434,72,0.02778417376621383,-1.191084797092921,934
+outside the built-up area,pre-treatment-only strata,all,785_435,72,0.032197405787090336,-1.1948470949447807,934
+outside the built-up area,pre-treatment-only strata,all,786_426,365,0.5566428735896846,-1.0416156162545316,641
+outside the built-up area,pre-treatment-only strata,all,786_427,2,0.000690766751093714,-1.1810614157143675,1004
+outside the built-up area,pre-treatment-only strata,all,786_429,13,0.0037608412003991096,-1.1814061781563534,993
+outside the built-up area,pre-treatment-only strata,all,786_430,14,0.0037224652697827923,-1.180931442151476,992
+outside the built-up area,pre-treatment-only strata,all,786_431,4,0.00015350372246526978,-1.180641839205715,1002
+outside the built-up area,pre-treatment-only strata,all,786_432,25,0.013124568270780566,-1.1846406617444314,981
+outside the built-up area,pre-treatment-only strata,all,786_435,2,7.675186123263489e-05,-1.18054278937942,1004
+outside the built-up area,pre-treatment-only strata,all,787_426,85,0.07118735129326886,-1.1644744938519387,921
+outside the built-up area,pre-treatment-only strata,all,787_427,52,0.04743265024176836,-1.1899675922796265,954
+outside the built-up area,pre-treatment-only strata,all,787_428,3,0.0008442704735589838,-1.1811167726381404,1003
+outside the built-up area,pre-treatment-only strata,all,787_432,7,0.002302555836979047,-1.1812724909873669,999
+outside the built-up area,pre-treatment-only strata,1–2,781_435,2,0.00585480093676815,-1.9353596251461105,417
+outside the built-up area,pre-treatment-only strata,1–2,782_425,1,0.00117096018735363,-1.9273980655607013,418
+outside the built-up area,pre-treatment-only strata,1–2,782_435,2,0.00234192037470726,-1.9316483751042213,417
+outside the built-up area,pre-treatment-only strata,1–2,783_424,5,0.01288056206088993,-1.9402210276219152,414
+outside the built-up area,pre-treatment-only strata,1–2,783_426,1,0.00468384074941452,-1.9323404998009162,418
+outside the built-up area,pre-treatment-only strata,1–2,783_432,2,0.00585480093676815,-1.9351203115126108,417
+outside the built-up area,pre-treatment-only strata,1–2,783_435,3,0.00702576112412178,-1.9444344403655562,416
+outside the built-up area,pre-treatment-only strata,1–2,784_427,4,0.00819672131147541,-1.9363054300802025,415
+outside the built-up area,pre-treatment-only strata,1–2,784_430,4,0.00819672131147541,-1.9341037992462196,415
+outside the built-up area,pre-treatment-only strata,1–2,784_431,2,0.00234192037470726,-1.930558564639221,417
+outside the built-up area,pre-treatment-only strata,1–2,784_433,1,0.00117096018735363,-1.9254362628284356,418
+outside the built-up area,pre-treatment-only strata,1–2,784_434,11,0.0234192037470726,-1.9440645409699662,408
+outside the built-up area,pre-treatment-only strata,1–2,784_435,1,0.00117096018735363,-1.9144389202026548,418
+outside the built-up area,pre-treatment-only strata,1–2,785_426,48,0.11241217798594848,-1.9177076919132763,371
+outside the built-up area,pre-treatment-only strata,1–2,785_427,5,0.01288056206088993,-1.9471131300813453,414
+outside the built-up area,pre-treatment-only strata,1–2,785_429,2,0.00585480093676815,-1.9264559583486673,417
+outside the built-up area,pre-treatment-only strata,1–2,785_430,24,0.06323185011709602,-1.903722162448994,395
+outside the built-up area,pre-treatment-only strata,1–2,785_431,5,0.01639344262295082,-1.9432688039143522,414
+outside the built-up area,pre-treatment-only strata,1–2,785_432,17,0.03747072599531616,-1.9157958540235827,402
+outside the built-up area,pre-treatment-only strata,1–2,785_433,2,0.00585480093676815,-1.9306729658566122,417
+outside the built-up area,pre-treatment-only strata,1–2,785_434,43,0.09953161592505855,-1.967204889762947,376
+outside the built-up area,pre-treatment-only strata,1–2,785_435,42,0.1053864168618267,-2.008190439709451,377
+outside the built-up area,pre-treatment-only strata,1–2,786_426,83,0.1990632318501171,-1.6967852736845324,336
+outside the built-up area,pre-treatment-only strata,1–2,786_429,7,0.0117096018735363,-1.9229604874770754,412
+outside the built-up area,pre-treatment-only strata,1–2,786_430,11,0.0234192037470726,-1.9187891112678355,408
+outside the built-up area,pre-treatment-only strata,1–2,786_431,4,0.00468384074941452,-1.92777191882157,415
+outside the built-up area,pre-treatment-only strata,1–2,786_432,15,0.02810304449648712,-1.924166798378583,404
+outside the built-up area,pre-treatment-only strata,1–2,786_435,2,0.00234192037470726,-1.9261971470597201,417
+outside the built-up area,pre-treatment-only strata,1–2,787_426,38,0.10070257611241218,-1.8636618014446322,381
+outside the built-up area,pre-treatment-only strata,1–2,787_427,27,0.0702576112412178,-1.935109918775871,392
+outside the built-up area,pre-treatment-only strata,1–2,787_428,1,0.00468384074941452,-1.9316425465648326,418
+outside the built-up area,pre-treatment-only strata,1–2,787_432,4,0.0117096018735363,-1.9393439876354783,415
+outside the built-up area,pre-treatment-only strata,3–4,781_435,1,0.004225352112676056,-1.3116524018141253,182
+outside the built-up area,pre-treatment-only strata,3–4,783_425,1,0.004225352112676056,-1.3101494209536129,182
+outside the built-up area,pre-treatment-only strata,3–4,783_435,1,0.004225352112676056,-1.3109389779389773,182
+outside the built-up area,pre-treatment-only strata,3–4,784_430,2,0.008450704225352112,-1.3089321794319415,181
+outside the built-up area,pre-treatment-only strata,3–4,784_431,1,0.004225352112676056,-1.3141798854508895,182
+outside the built-up area,pre-treatment-only strata,3–4,784_434,2,0.011737089201877934,-1.3133551111985056,181
+outside the built-up area,pre-treatment-only strata,3–4,785_426,22,0.1323943661971831,-1.3032802036570852,161
+outside the built-up area,pre-treatment-only strata,3–4,785_427,3,0.01596244131455399,-1.3218273879587672,180
+outside the built-up area,pre-treatment-only strata,3–4,785_430,12,0.06056338028169014,-1.290376366635048,171
+outside the built-up area,pre-treatment-only strata,3–4,785_432,6,0.03192488262910798,-1.295083739941668,177
+outside the built-up area,pre-treatment-only strata,3–4,785_434,18,0.1056338028169014,-1.3559664726282599,165
+outside the built-up area,pre-treatment-only strata,3–4,785_435,18,0.08262910798122065,-1.335772322537081,165
+outside the built-up area,pre-treatment-only strata,3–4,786_426,51,0.29107981220657275,-1.1915909723059517,132
+outside the built-up area,pre-treatment-only strata,3–4,786_427,2,0.008450704225352112,-1.3112333256383757,181
+outside the built-up area,pre-treatment-only strata,3–4,786_429,5,0.024413145539906103,-1.3186880222186348,178
+outside the built-up area,pre-treatment-only strata,3–4,786_430,1,0.007511737089201878,-1.311844926265883,182
+outside the built-up area,pre-treatment-only strata,3–4,786_432,5,0.024413145539906103,-1.306109062350275,178
+outside the built-up area,pre-treatment-only strata,3–4,787_426,22,0.12910798122065728,-1.2491207705856964,161
+outside the built-up area,pre-treatment-only strata,3–4,787_427,6,0.02863849765258216,-1.3160093803985033,177
+outside the built-up area,pre-treatment-only strata,3–4,787_428,2,0.008450704225352112,-1.3131742803494997,181
+outside the built-up area,pre-treatment-only strata,3–4,787_432,2,0.011737089201877934,-1.3144844944770182,181
+outside the built-up area,pre-treatment-only strata,5–8,781_435,1,0.002471821237888076,-1.0639409168810634,243
+outside the built-up area,pre-treatment-only strata,5–8,783_424,1,0.004844769626260629,-1.065033793904223,243
+outside the built-up area,pre-treatment-only strata,5–8,783_435,2,0.008799683606881551,-1.0700793673667826,242
+outside the built-up area,pre-treatment-only strata,5–8,784_427,1,0.0035594225825588293,-1.0645553120313824,243
+outside the built-up area,pre-treatment-only strata,5–8,784_434,1,0.002471821237888076,-1.0629354461266753,243
+outside the built-up area,pre-treatment-only strata,5–8,785_426,37,0.1609649990112715,-1.0712653881880998,207
+outside the built-up area,pre-treatment-only strata,5–8,785_430,12,0.05289697449080483,-1.0592600698770553,232
+outside the built-up area,pre-treatment-only strata,5–8,785_431,2,0.007118845165117659,-1.0670608838391071,242
+outside the built-up area,pre-treatment-only strata,5–8,785_432,7,0.02956298200514139,-1.0672452755082384,237
+outside the built-up area,pre-treatment-only strata,5–8,785_433,1,0.002471821237888076,-1.0629376810253113,243
+outside the built-up area,pre-treatment-only strata,5–8,785_434,10,0.03292465888866917,-1.0767504347324703,234
+outside the built-up area,pre-treatment-only strata,5–8,785_435,10,0.040636741150879965,-1.0805679818404896,234
+outside the built-up area,pre-treatment-only strata,5–8,786_426,125,0.5071188451651176,-0.917930411465867,119
+outside the built-up area,pre-treatment-only strata,5–8,786_429,1,0.0035594225825588293,-1.0626570074542057,243
+outside the built-up area,pre-treatment-only strata,5–8,786_430,2,0.006031243820446905,-1.063166833239485,242
+outside the built-up area,pre-treatment-only strata,5–8,786_432,4,0.01829147716037176,-1.0685790443335306,240
+outside the built-up area,pre-treatment-only strata,5–8,787_426,14,0.05962032825786039,-1.045522902104474,230
+outside the built-up area,pre-treatment-only strata,5–8,787_427,12,0.054182321534506625,-1.0685275045466067,232
+outside the built-up area,pre-treatment-only strata,5–8,787_432,1,0.002471821237888076,-1.061650718046625,243
+outside the built-up area,pre-treatment-only strata,9,783_435,1,0.00625,-1.2094328249056148,159
+outside the built-up area,pre-treatment-only strata,9,785_426,11,0.06875,-1.2213685071973008,149
+outside the built-up area,pre-treatment-only strata,9,785_430,20,0.125,-1.2123984611611482,140
+outside the built-up area,pre-treatment-only strata,9,785_434,1,0.00625,-1.2071860825257572,159
+outside the built-up area,pre-treatment-only strata,9,785_435,2,0.0125,-1.2114190612157116,158
+outside the built-up area,pre-treatment-only strata,9,786_426,106,0.6625,-1.0283490210445927,54
+outside the built-up area,pre-treatment-only strata,9,786_432,1,0.00625,-1.206859604939365,159
+outside the built-up area,pre-treatment-only strata,9,787_426,11,0.06875,-1.2007122843513862,149
+outside the built-up area,pre-treatment-only strata,9,787_427,7,0.04375,-1.2149230035923104,153
+outside the built-up area,concurrent-change strata,all,781_435,4,0.0025523560209424084,-1.0978990215740119,740
+outside the built-up area,concurrent-change strata,all,782_425,1,6.544502617801048e-05,-1.0957015340864311,743
+outside the built-up area,concurrent-change strata,all,782_435,2,0.00013089005235602096,-1.0958348608344024,742
+outside the built-up area,concurrent-change strata,all,783_424,6,0.003926701570680628,-1.0975470745655316,738
+outside the built-up area,concurrent-change strata,all,783_425,1,0.0005890052356020942,-1.0960997991277652,743
+outside the built-up area,concurrent-change strata,all,783_426,1,0.0002617801047120419,-1.0957590901479766,743
+outside the built-up area,concurrent-change strata,all,783_432,2,0.0003272251308900524,-1.0958929059524944,742
+outside the built-up area,concurrent-change strata,all,783_435,7,0.012107329842931938,-1.1068918664563794,737
+outside the built-up area,concurrent-change strata,all,784_427,5,0.0028141361256544505,-1.0976400018473347,739
+outside the built-up area,concurrent-change strata,all,784_430,6,0.0016361256544502618,-1.0972267171007917,737
+outside the built-up area,concurrent-change strata,all,784_431,3,0.0007198952879581152,-1.0974664751133243,738
+outside the built-up area,concurrent-change strata,all,784_433,1,6.544502617801048e-05,-1.095519642462213,743
+outside the built-up area,concurrent-change strata,all,784_434,14,0.004581151832460733,-1.0970630424401353,730
+outside the built-up area,concurrent-change strata,all,784_435,1,6.544502617801048e-05,-1.091954730012947,743
+outside the built-up area,concurrent-change strata,all,785_426,118,0.18959424083769633,-1.1101148145226045,626
+outside the built-up area,concurrent-change strata,all,785_427,7,0.0028795811518324606,-1.1029020523758053,731
+outside the built-up area,concurrent-change strata,all,785_429,2,0.0003272251308900524,-1.0955317530977853,742
+outside the built-up area,concurrent-change strata,all,785_430,68,0.15301047120418848,-1.07788135596781,676
+outside the built-up area,concurrent-change strata,all,785_431,7,0.005628272251308901,-1.1027430964891762,737
+outside the built-up area,concurrent-change strata,all,785_432,30,0.026112565445026176,-1.0950411496399959,714
+outside the built-up area,concurrent-change strata,all,785_433,3,0.001963350785340314,-1.0962528175403905,741
+outside the built-up area,concurrent-change strata,all,785_434,72,0.04738219895287958,-1.1076830001772318,672
+outside the built-up area,concurrent-change strata,all,785_435,72,0.05490837696335078,-1.1157073405049571,672
+outside the built-up area,concurrent-change strata,all,786_426,178,0.39993455497382197,-1.0067971031908702,566
+outside the built-up area,concurrent-change strata,all,786_427,2,0.0011780104712041885,-1.0957520939505294,742
+outside the built-up area,concurrent-change strata,all,786_429,13,0.006413612565445026,-1.0964754046366139,731
+outside the built-up area,concurrent-change strata,all,786_430,13,0.003992146596858639,-1.0953947117877567,731
+outside the built-up area,concurrent-change strata,all,786_431,4,0.0002617801047120419,-1.0956823438963528,740
+outside the built-up area,concurrent-change strata,all,786_432,19,0.016492146596858638,-1.099211748595497,725
+outside the built-up area,concurrent-change strata,all,786_435,2,0.00013089005235602096,-1.0955914476372564,742
+outside the built-up area,concurrent-change strata,all,787_426,40,0.02349476439790576,-1.0925813788254168,704
+outside the built-up area,concurrent-change strata,all,787_427,30,0.031086387434554975,-1.0883008750708338,713
+outside the built-up area,concurrent-change strata,all,787_428,3,0.0014397905759162303,-1.0964169770691028,741
+outside the built-up area,concurrent-change strata,all,787_432,7,0.003926701570680628,-1.0968161821729936,737
+outside the built-up area,concurrent-change strata,1–2,781_435,2,0.006963788300835654,-1.7058259462159917,353
+outside the built-up area,concurrent-change strata,1–2,782_425,1,0.001392757660167131,-1.6977791768437305,354
+outside the built-up area,concurrent-change strata,1–2,782_435,2,0.002785515320334262,-1.7020020347374338,353
+outside the built-up area,concurrent-change strata,1–2,783_424,5,0.01532033426183844,-1.705734575970433,350
+outside the built-up area,concurrent-change strata,1–2,783_426,1,0.005571030640668524,-1.70154032435695,354
+outside the built-up area,concurrent-change strata,1–2,783_432,2,0.006963788300835654,-1.7052567586461793,353
+outside the built-up area,concurrent-change strata,1–2,783_435,3,0.008356545961002786,-1.7160042090527803,352
+outside the built-up area,concurrent-change strata,1–2,784_427,4,0.009749303621169917,-1.707627460373714,351
+outside the built-up area,concurrent-change strata,1–2,784_430,4,0.009749303621169917,-1.7040731591547738,351
+outside the built-up area,concurrent-change strata,1–2,784_431,2,0.002785515320334262,-1.702416989932729,352
+outside the built-up area,concurrent-change strata,1–2,784_433,1,0.001392757660167131,-1.6953645796719987,354
+outside the built-up area,concurrent-change strata,1–2,784_434,11,0.027855153203342618,-1.7118331429472902,344
+outside the built-up area,concurrent-change strata,1–2,784_435,1,0.001392757660167131,-1.6710089066651104,354
+outside the built-up area,concurrent-change strata,1–2,785_426,48,0.13370473537604458,-1.6667900955738133,307
+outside the built-up area,concurrent-change strata,1–2,785_427,4,0.013927576601671309,-1.7328658023245125,346
+outside the built-up area,concurrent-change strata,1–2,785_429,2,0.006963788300835654,-1.6975195779229235,353
+outside the built-up area,concurrent-change strata,1–2,785_430,24,0.07520891364902507,-1.6562505795560432,331
+outside the built-up area,concurrent-change strata,1–2,785_431,5,0.019498607242339833,-1.7045808960005218,350
+outside the built-up area,concurrent-change strata,1–2,785_432,17,0.04456824512534819,-1.6732476903001212,338
+outside the built-up area,concurrent-change strata,1–2,785_433,2,0.006963788300835654,-1.702484994415873,353
+outside the built-up area,concurrent-change strata,1–2,785_434,43,0.11838440111420613,-1.7029211462300455,312
+outside the built-up area,concurrent-change strata,1–2,785_435,42,0.12534818941504178,-1.767440202502947,313
+outside the built-up area,concurrent-change strata,1–2,786_426,45,0.13788300835654596,-1.5854638390578633,310
+outside the built-up area,concurrent-change strata,1–2,786_429,7,0.013927576601671309,-1.6928997685029679,348
+outside the built-up area,concurrent-change strata,1–2,786_430,11,0.027855153203342618,-1.6859571262448942,344
+outside the built-up area,concurrent-change strata,1–2,786_431,4,0.005571030640668524,-1.6977106023101125,351
+outside the built-up area,concurrent-change strata,1–2,786_432,11,0.019498607242339833,-1.6899625654039143,344
+outside the built-up area,concurrent-change strata,1–2,786_435,2,0.002785515320334262,-1.6962710439837676,353
+outside the built-up area,concurrent-change strata,1–2,787_426,26,0.06963788300835655,-1.6816097813844306,329
+outside the built-up area,concurrent-change strata,1–2,787_427,18,0.0584958217270195,-1.69596314074978,337
+outside the built-up area,concurrent-change strata,1–2,787_428,1,0.005571030640668524,-1.7017521411327445,354
+outside the built-up area,concurrent-change strata,1–2,787_432,4,0.013927576601671309,-1.710772057549188,351
+outside the built-up area,concurrent-change strata,3–4,781_435,1,0.005379557680812911,-1.19569119772457,146
+outside the built-up area,concurrent-change strata,3–4,783_425,1,0.005379557680812911,-1.1942454262068674,146
+outside the built-up area,concurrent-change strata,3–4,783_435,1,0.005379557680812911,-1.194739918527864,146
+outside the built-up area,concurrent-change strata,3–4,784_430,2,0.010759115361625823,-1.2050799904439413,144
+outside the built-up area,concurrent-change strata,3–4,784_431,1,0.005379557680812911,-1.2050799904439413,144
+outside the built-up area,concurrent-change strata,3–4,784_434,2,0.014943215780035863,-1.197240847241216,145
+outside the built-up area,concurrent-change strata,3–4,785_426,22,0.16855947399880455,-1.1686828770821607,125
+outside the built-up area,concurrent-change strata,3–4,785_427,3,0.020322773460848775,-1.2203819906231386,143
+outside the built-up area,concurrent-change strata,3–4,785_430,12,0.07710699342498506,-1.1570208006827392,135
+outside the built-up area,concurrent-change strata,3–4,785_432,6,0.04064554692169755,-1.1701070751923173,141
+outside the built-up area,concurrent-change strata,3–4,785_434,18,0.13448894202032277,-1.2306710209089713,129
+outside the built-up area,concurrent-change strata,3–4,785_435,18,0.10520023909145249,-1.2141998251193087,129
+outside the built-up area,concurrent-change strata,3–4,786_426,30,0.21578003586371788,-1.1105257521901448,117
+outside the built-up area,concurrent-change strata,3–4,786_427,2,0.010759115361625823,-1.1934377082676058,145
+outside the built-up area,concurrent-change strata,3–4,786_429,5,0.031081888822474597,-1.2006793939412423,142
+outside the built-up area,concurrent-change strata,3–4,786_430,1,0.009563658099222952,-1.196322636593048,146
+outside the built-up area,concurrent-change strata,3–4,786_432,4,0.021518230723251645,-1.1898539712669107,143
+outside the built-up area,concurrent-change strata,3–4,787_426,10,0.07053197848176927,-1.1815094647417814,137
+outside the built-up area,concurrent-change strata,3–4,787_427,4,0.021518230723251645,-1.180148491211058,143
+outside the built-up area,concurrent-change strata,3–4,787_428,2,0.010759115361625823,-1.1967734748470438,145
+outside the built-up area,concurrent-change strata,3–4,787_432,2,0.014943215780035863,-1.199106851849631,145
+outside the built-up area,concurrent-change strata,5–8,781_435,1,0.003668916935720575,-0.9953680202997638,166
+outside the built-up area,concurrent-change strata,5–8,783_424,1,0.007191077194012328,-0.9960555008613206,166
+outside the built-up area,concurrent-change strata,5–8,783_435,2,0.013061344291165247,-1.0037824889703275,165
+outside the built-up area,concurrent-change strata,5–8,784_427,1,0.005283240387437629,-0.9959015812146159,166
+outside the built-up area,concurrent-change strata,5–8,784_434,1,0.003668916935720575,-0.994081640792378,166
+outside the built-up area,concurrent-change strata,5–8,785_426,37,0.23891987085412386,-0.9943158022108427,130
+outside the built-up area,concurrent-change strata,5–8,785_430,12,0.07851482242442032,-0.9819037746879469,155
+outside the built-up area,concurrent-change strata,5–8,785_431,2,0.010566480774875257,-0.9996429373461378,165
+outside the built-up area,concurrent-change strata,5–8,785_432,7,0.04388024655121808,-0.9976663286622398,160
+outside the built-up area,concurrent-change strata,5–8,785_433,1,0.003668916935720575,-0.9939823647967522,166
+outside the built-up area,concurrent-change strata,5–8,785_434,10,0.04886997358379806,-1.0099383718440798,157
+outside the built-up area,concurrent-change strata,5–8,785_435,10,0.060316994423246256,-1.016499226870358,157
+outside the built-up area,concurrent-change strata,5–8,786_426,67,0.40137951276783096,-0.8759372977790065,100
+outside the built-up area,concurrent-change strata,5–8,786_429,1,0.005283240387437629,-0.9932389811427389,166
+outside the built-up area,concurrent-change strata,5–8,786_430,1,0.003668916935720575,-0.9930867565791014,166
+outside the built-up area,concurrent-change strata,5–8,786_432,3,0.017757557968887585,-0.9957932750718821,164
+outside the built-up area,concurrent-change strata,5–8,787_426,3,0.01614323451717053,-0.9932186802878195,164
+outside the built-up area,concurrent-change strata,5–8,787_427,6,0.03448781919577341,-0.9872612822278514,160
+outside the built-up area,concurrent-change strata,5–8,787_432,1,0.003668916935720575,-0.9922736984461943,166
+outside the built-up area,concurrent-change strata,9,783_435,1,0.013333333333333334,-1.1258347121384131,74
+outside the built-up area,concurrent-change strata,9,785_426,11,0.14666666666666667,-1.1434507477815945,64
+outside the built-up area,concurrent-change strata,9,785_430,20,0.26666666666666666,-1.0995232786959406,55
+outside the built-up area,concurrent-change strata,9,785_434,1,0.013333333333333334,-1.1207978710074233,74
+outside the built-up area,concurrent-change strata,9,785_435,2,0.02666666666666667,-1.1289828461366018,73
+outside the built-up area,concurrent-change strata,9,786_426,36,0.48,-1.019298036804759,39
+outside the built-up area,concurrent-change strata,9,786_432,1,0.013333333333333334,-1.120551413218007,74
+outside the built-up area,concurrent-change strata,9,787_426,1,0.013333333333333334,-1.1149993608885942,74
+outside the built-up area,concurrent-change strata,9,787_427,2,0.02666666666666667,-1.1053952860758047,73
+built-up surroundings,pre-treatment-only strata,all,781_435,1,0.0005830903790087463,-0.7839403954435339,312
+built-up surroundings,pre-treatment-only strata,all,782_430,3,0.0052478134110787176,-0.7853527337857069,310
+built-up surroundings,pre-treatment-only strata,all,782_431,7,0.0163265306122449,-0.7833300276317207,306
+built-up surroundings,pre-treatment-only strata,all,782_432,5,0.004664723032069971,-0.776691839608996,306
+built-up surroundings,pre-treatment-only strata,all,782_433,8,0.009912536443148687,-0.7836716042722068,305
+built-up surroundings,pre-treatment-only strata,all,782_434,2,0.0029154518950437317,-0.7833554165155474,311
+built-up surroundings,pre-treatment-only strata,all,782_435,1,0.0005830903790087463,-0.782076920200468,311
+built-up surroundings,pre-treatment-only strata,all,783_425,2,0.0029154518950437317,-0.7836001650114194,311
+built-up surroundings,pre-treatment-only strata,all,783_426,1,0.0005830903790087463,-0.7836076403853777,312
+built-up surroundings,pre-treatment-only strata,all,783_427,3,0.003498542274052478,-0.7873479705763498,310
+built-up surroundings,pre-treatment-only strata,all,783_429,2,0.0029154518950437317,-0.7792145074508513,311
+built-up surroundings,pre-treatment-only strata,all,783_430,5,0.022157434402332362,-0.7788673287663477,308
+built-up surroundings,pre-treatment-only strata,all,783_431,3,0.001749271137026239,-0.7805125216860854,310
+built-up surroundings,pre-treatment-only strata,all,783_432,4,0.004081632653061225,-0.7801935414771058,309
+built-up surroundings,pre-treatment-only strata,all,783_433,9,0.019825072886297375,-0.7797261060118452,304
+built-up surroundings,pre-treatment-only strata,all,783_435,8,0.04664723032069971,-0.8035038557046433,305
+built-up surroundings,pre-treatment-only strata,all,784_426,15,0.03965014577259475,-0.8067536157505444,298
+built-up surroundings,pre-treatment-only strata,all,784_427,5,0.0029154518950437317,-0.7815945939638372,308
+built-up surroundings,pre-treatment-only strata,all,784_429,15,0.036151603498542274,-0.7924037996689507,298
+built-up surroundings,pre-treatment-only strata,all,784_430,18,0.04256559766763848,-0.7607481033003587,295
+built-up surroundings,pre-treatment-only strata,all,784_431,7,0.036734693877551024,-0.7952309058275262,306
+built-up surroundings,pre-treatment-only strata,all,784_432,8,0.00641399416909621,-0.7824830901397386,305
+built-up surroundings,pre-treatment-only strata,all,784_433,14,0.037317784256559766,-0.7743383509453167,299
+built-up surroundings,pre-treatment-only strata,all,784_434,14,0.036734693877551024,-0.775625498458511,299
+built-up surroundings,pre-treatment-only strata,all,784_435,3,0.001749271137026239,-0.7872008777978611,310
+built-up surroundings,pre-treatment-only strata,all,785_427,10,0.03498542274052478,-0.7897790521343034,303
+built-up surroundings,pre-treatment-only strata,all,785_428,9,0.09912536443148688,-0.8124280717253695,304
+built-up surroundings,pre-treatment-only strata,all,785_429,12,0.030320699708454812,-0.7700349374255833,301
+built-up surroundings,pre-treatment-only strata,all,785_430,18,0.1259475218658892,-0.7985964157774867,295
+built-up surroundings,pre-treatment-only strata,all,785_431,11,0.02740524781341108,-0.7803886806649964,302
+built-up surroundings,pre-treatment-only strata,all,785_432,1,0.0005830903790087463,-0.7825547833748826,312
+built-up surroundings,pre-treatment-only strata,all,785_433,2,0.0011661807580174927,-0.7822992591754376,311
+built-up surroundings,pre-treatment-only strata,all,785_434,5,0.004664723032069971,-0.7803168636956416,308
+built-up surroundings,pre-treatment-only strata,all,786_427,7,0.02857142857142857,-0.7828395327176606,306
+built-up surroundings,pre-treatment-only strata,all,786_428,2,0.0029154518950437317,-0.777017380710206,311
+built-up surroundings,pre-treatment-only strata,all,786_429,24,0.14110787172011663,-0.779333619418816,289
+built-up surroundings,pre-treatment-only strata,all,786_430,23,0.08513119533527697,-0.7453970072162788,290
+built-up surroundings,pre-treatment-only strata,all,787_427,2,0.0011661807580174927,-0.7833353203801482,311
+built-up surroundings,pre-treatment-only strata,all,787_428,9,0.016909620991253645,-0.7895318845832655,303
+built-up surroundings,pre-treatment-only strata,all,787_429,12,0.013411078717201166,-0.7770345557676148,301
+built-up surroundings,pre-treatment-only strata,all,787_430,3,0.001749271137026239,-0.7733810356816305,310
+built-up surroundings,pre-treatment-only strata,1–2,781_435,1,0.0021645021645021645,-1.212092280129459,245
+built-up surroundings,pre-treatment-only strata,1–2,782_430,3,0.01948051948051948,-1.2244945135077063,243
+built-up surroundings,pre-treatment-only strata,1–2,782_431,6,0.025974025974025976,-1.2072203551432874,240
+built-up surroundings,pre-treatment-only strata,1–2,782_432,5,0.017316017316017316,-1.192652938248419,239
+built-up surroundings,pre-treatment-only strata,1–2,782_433,8,0.0367965367965368,-1.2251795677106734,238
+built-up surroundings,pre-treatment-only strata,1–2,782_434,2,0.010822510822510822,-1.2136509093896057,244
+built-up surroundings,pre-treatment-only strata,1–2,782_435,1,0.0021645021645021645,-1.2126275635075945,244
+built-up surroundings,pre-treatment-only strata,1–2,783_425,2,0.010822510822510822,-1.2145667079190174,244
+built-up surroundings,pre-treatment-only strata,1–2,783_426,1,0.0021645021645021645,-1.2108550953796118,245
+built-up surroundings,pre-treatment-only strata,1–2,783_427,3,0.012987012987012988,-1.229557861983433,243
+built-up surroundings,pre-treatment-only strata,1–2,783_429,2,0.010822510822510822,-1.1981564794101085,244
+built-up surroundings,pre-treatment-only strata,1–2,783_430,3,0.012987012987012988,-1.1960856560905602,243
+built-up surroundings,pre-treatment-only strata,1–2,783_431,3,0.006493506493506494,-1.1997945279797582,243
+built-up surroundings,pre-treatment-only strata,1–2,783_432,4,0.015151515151515152,-1.2041605503665307,242
+built-up surroundings,pre-treatment-only strata,1–2,783_433,7,0.03463203463203463,-1.221332498916778,239
+built-up surroundings,pre-treatment-only strata,1–2,783_435,3,0.006493506493506494,-1.215834755725,243
+built-up surroundings,pre-treatment-only strata,1–2,784_426,12,0.05844155844155844,-1.2500848341079558,234
+built-up surroundings,pre-treatment-only strata,1–2,784_427,5,0.010822510822510822,-1.2077477780487684,241
+built-up surroundings,pre-treatment-only strata,1–2,784_429,12,0.045454545454545456,-1.2176244442091657,234
+built-up surroundings,pre-treatment-only strata,1–2,784_430,13,0.06060606060606061,-1.158724912619616,233
+built-up surroundings,pre-treatment-only strata,1–2,784_431,5,0.023809523809523808,-1.2239352867937137,241
+built-up surroundings,pre-treatment-only strata,1–2,784_432,8,0.023809523809523808,-1.215067017196942,238
+built-up surroundings,pre-treatment-only strata,1–2,784_433,9,0.025974025974025976,-1.1972479326728864,237
+built-up surroundings,pre-treatment-only strata,1–2,784_434,11,0.04329004329004329,-1.192219603188071,235
+built-up surroundings,pre-treatment-only strata,1–2,784_435,3,0.006493506493506494,-1.21534345977653,243
+built-up surroundings,pre-treatment-only strata,1–2,785_427,9,0.05194805194805195,-1.2316522518228368,237
+built-up surroundings,pre-treatment-only strata,1–2,785_428,6,0.01948051948051948,-1.207812981264145,240
+built-up surroundings,pre-treatment-only strata,1–2,785_429,9,0.03896103896103896,-1.1844169603399974,237
+built-up surroundings,pre-treatment-only strata,1–2,785_430,12,0.05194805194805195,-1.1927165908605915,234
+built-up surroundings,pre-treatment-only strata,1–2,785_431,9,0.032467532467532464,-1.1954213916756966,237
+built-up surroundings,pre-treatment-only strata,1–2,785_432,1,0.0021645021645021645,-1.203929344692905,245
+built-up surroundings,pre-treatment-only strata,1–2,785_433,2,0.004329004329004329,-1.2094028090578914,244
+built-up surroundings,pre-treatment-only strata,1–2,785_434,5,0.017316017316017316,-1.2046896398950055,241
+built-up surroundings,pre-treatment-only strata,1–2,786_427,5,0.017316017316017316,-1.1985521305222162,241
+built-up surroundings,pre-treatment-only strata,1–2,786_428,2,0.010822510822510822,-1.199236454613057,244
+built-up surroundings,pre-treatment-only strata,1–2,786_429,13,0.0670995670995671,-1.2034672116615484,233
+built-up surroundings,pre-treatment-only strata,1–2,786_430,17,0.07575757575757576,-1.1340938311871651,229
+built-up surroundings,pre-treatment-only strata,1–2,787_427,2,0.004329004329004329,-1.2101942815177338,244
+built-up surroundings,pre-treatment-only strata,1–2,787_428,8,0.04329004329004329,-1.2486567062212257,237
+built-up surroundings,pre-treatment-only strata,1–2,787_429,11,0.030303030303030304,-1.2045643593749005,235
+built-up surroundings,pre-treatment-only strata,1–2,787_430,3,0.006493506493506494,-1.1904897323556143,243
+built-up surroundings,pre-treatment-only strata,3–4,782_431,1,0.026490066225165563,-0.7062350889527301,49
+built-up surroundings,pre-treatment-only strata,3–4,783_430,2,0.052980132450331126,-0.6954249766920308,48
+built-up surroundings,pre-treatment-only strata,3–4,783_433,2,0.029801324503311258,-0.6877865617628,48
+built-up surroundings,pre-treatment-only strata,3–4,783_435,3,0.04470198675496689,-0.7106919460343591,47
+built-up surroundings,pre-treatment-only strata,3–4,784_426,3,0.06788079470198675,-0.7487247587622695,47
+built-up surroundings,pre-treatment-only strata,3–4,784_429,3,0.06788079470198675,-0.7273667271914408,47
+built-up surroundings,pre-treatment-only strata,3–4,784_430,5,0.07450331125827815,-0.6848368495690824,45
+built-up surroundings,pre-treatment-only strata,3–4,784_431,1,0.026490066225165563,-0.7058234781852702,49
+built-up surroundings,pre-treatment-only strata,3–4,784_433,5,0.08609271523178808,-0.6824432666882077,45
+built-up surroundings,pre-treatment-only strata,3–4,784_434,2,0.029801324503311258,-0.6968044773091188,48
+built-up surroundings,pre-treatment-only strata,3–4,785_428,1,0.026490066225165563,-0.7009725584613705,49
+built-up surroundings,pre-treatment-only strata,3–4,785_429,3,0.056291390728476824,-0.690181766375999,47
+built-up surroundings,pre-treatment-only strata,3–4,785_430,2,0.029801324503311258,-0.6808514261160026,48
+built-up surroundings,pre-treatment-only strata,3–4,785_431,2,0.052980132450331126,-0.708690387891935,48
+built-up surroundings,pre-treatment-only strata,3–4,786_427,1,0.026490066225165563,-0.699143403210615,49
+built-up surroundings,pre-treatment-only strata,3–4,786_429,8,0.18874172185430463,-0.6902687701429738,42
+built-up surroundings,pre-treatment-only strata,3–4,786_430,4,0.08278145695364239,-0.6735386685258863,46
+built-up surroundings,pre-treatment-only strata,3–4,787_428,1,0.014900662251655629,-0.7008987139665458,49
+built-up surroundings,pre-treatment-only strata,3–4,787_429,1,0.014900662251655629,-0.6936576317256667,49
+built-up surroundings,pre-treatment-only strata,5–8,783_435,2,0.0880281690140845,-0.6006894193387867,14
+built-up surroundings,pre-treatment-only strata,5–8,784_431,1,0.06338028169014084,-0.5869702214100931,15
+built-up surroundings,pre-treatment-only strata,5–8,784_434,1,0.04401408450704225,-0.5738684272950081,15
+built-up surroundings,pre-treatment-only strata,5–8,785_427,1,0.06338028169014084,-0.5845141971353912,15
+built-up surroundings,pre-treatment-only strata,5–8,785_428,1,0.11267605633802817,-0.5870837816026832,15
+built-up surroundings,pre-treatment-only strata,5–8,785_430,4,0.30633802816901406,-0.6123678823084675,12
+built-up surroundings,pre-treatment-only strata,5–8,786_427,1,0.04401408450704225,-0.5792585525648153,15
+built-up surroundings,pre-treatment-only strata,5–8,786_429,3,0.17077464788732394,-0.544794218020661,13
+built-up surroundings,pre-treatment-only strata,5–8,786_430,2,0.1073943661971831,-0.5477221635544,14
+built-up surroundings,concurrent-change strata,all,781_435,1,0.0005851375073142189,-0.7438391590724799,309
+built-up surroundings,concurrent-change strata,all,782_430,3,0.0052662375658279695,-0.742970791850468,307
+built-up surroundings,concurrent-change strata,all,782_431,7,0.016383850204798128,-0.7427172616317301,303
+built-up surroundings,concurrent-change strata,all,782_432,5,0.004681100058513751,-0.7359571306185707,303
+built-up surroundings,concurrent-change strata,all,782_433,8,0.00994733762434172,-0.7445816105103216,300
+built-up surroundings,concurrent-change strata,all,782_434,2,0.002925687536571094,-0.742953429182205,308
+built-up surroundings,concurrent-change strata,all,782_435,1,0.0005851375073142189,-0.7422705787889062,308
+built-up surroundings,concurrent-change strata,all,783_426,1,0.0005851375073142189,-0.7428459431655434,309
+built-up surroundings,concurrent-change strata,all,783_427,3,0.003510825043885313,-0.7473515033235945,307
+built-up surroundings,concurrent-change strata,all,783_429,2,0.002925687536571094,-0.739223317048915,308
+built-up surroundings,concurrent-change strata,all,783_430,5,0.022235225277940317,-0.7393153640901288,305
+built-up surroundings,concurrent-change strata,all,783_431,3,0.0017554125219426564,-0.7411208274978146,307
+built-up surroundings,concurrent-change strata,all,783_432,4,0.004095962551199532,-0.7425338509113202,306
+built-up surroundings,concurrent-change strata,all,783_433,9,0.01989467524868344,-0.7382358363990118,301
+built-up surroundings,concurrent-change strata,all,783_435,8,0.046811000585137506,-0.7600046088934698,302
+built-up surroundings,concurrent-change strata,all,784_426,15,0.03978935049736688,-0.7692305331244794,295
+built-up surroundings,concurrent-change strata,all,784_427,5,0.002925687536571094,-0.7396025553658628,305
+built-up surroundings,concurrent-change strata,all,784_429,15,0.03627852545348157,-0.7506104224746399,295
+built-up surroundings,concurrent-change strata,all,784_430,17,0.042129900526623756,-0.7206401762019852,293
+built-up surroundings,concurrent-change strata,all,784_431,7,0.03686366296079579,-0.7589009547501083,303
+built-up surroundings,concurrent-change strata,all,784_432,8,0.006436512580456407,-0.7410188666614055,302
+built-up surroundings,concurrent-change strata,all,784_433,14,0.037448800468110006,-0.736029103253392,296
+built-up surroundings,concurrent-change strata,all,784_434,14,0.03686366296079579,-0.7396194778623865,294
+built-up surroundings,concurrent-change strata,all,784_435,3,0.0017554125219426564,-0.7458928579740369,307
+built-up surroundings,concurrent-change strata,all,785_427,10,0.03510825043885313,-0.7554315734432469,297
+built-up surroundings,concurrent-change strata,all,785_428,9,0.0994733762434172,-0.7827477918374638,301
+built-up surroundings,concurrent-change strata,all,785_429,12,0.030427150380339378,-0.7371468496846307,298
+built-up surroundings,concurrent-change strata,all,785_430,18,0.12638970157987128,-0.763658916968283,292
+built-up surroundings,concurrent-change strata,all,785_431,11,0.027501462843768285,-0.7316294321354793,299
+built-up surroundings,concurrent-change strata,all,785_432,1,0.0005851375073142189,-0.7417773790534142,309
+built-up surroundings,concurrent-change strata,all,785_433,2,0.0011702750146284377,-0.7430967953370399,308
+built-up surroundings,concurrent-change strata,all,785_434,5,0.004681100058513751,-0.7409090992306607,305
+built-up surroundings,concurrent-change strata,all,786_427,7,0.028671737858396724,-0.7420085681430526,302
+built-up surroundings,concurrent-change strata,all,786_428,2,0.002925687536571094,-0.7385508709895551,308
+built-up surroundings,concurrent-change strata,all,786_429,24,0.14160327677004095,-0.7340114129394281,286
+built-up surroundings,concurrent-change strata,all,786_430,23,0.08543007606787595,-0.7085786608370649,287
+built-up surroundings,concurrent-change strata,all,787_427,2,0.0011702750146284377,-0.7432177767810176,308
+built-up surroundings,concurrent-change strata,all,787_428,9,0.016968987712112346,-0.7507518076390955,300
+built-up surroundings,concurrent-change strata,all,787_429,12,0.013458162668227034,-0.7367139146061094,298
+built-up surroundings,concurrent-change strata,all,787_430,3,0.0017554125219426564,-0.7398739111170284,307
+built-up surroundings,concurrent-change strata,1–2,781_435,1,0.0021929824561403508,-1.1221961902277686,242
+built-up surroundings,concurrent-change strata,1–2,782_430,3,0.019736842105263157,-1.1259752752877732,240
+built-up surroundings,concurrent-change strata,1–2,782_431,6,0.02631578947368421,-1.1152320026250888,237
+built-up surroundings,concurrent-change strata,1–2,782_432,5,0.017543859649122806,-1.099589544441925,236
+built-up surroundings,concurrent-change strata,1–2,782_433,8,0.03728070175438596,-1.1413071782519475,233
+built-up surroundings,concurrent-change strata,1–2,782_434,2,0.010964912280701754,-1.1222053795661118,241
+built-up surroundings,concurrent-change strata,1–2,782_435,1,0.0021929824561403508,-1.1223590418956373,241
+built-up surroundings,concurrent-change strata,1–2,783_426,1,0.0021929824561403508,-1.118467810515576,242
+built-up surroundings,concurrent-change strata,1–2,783_427,3,0.013157894736842105,-1.139692428928712,240
+built-up surroundings,concurrent-change strata,1–2,783_429,2,0.010964912280701754,-1.1081120068939916,241
+built-up surroundings,concurrent-change strata,1–2,783_430,3,0.013157894736842105,-1.1126496920530506,240
+built-up surroundings,concurrent-change strata,1–2,783_431,3,0.006578947368421052,-1.1125580428742183,240
+built-up surroundings,concurrent-change strata,1–2,783_432,4,0.015350877192982455,-1.1233954844776464,239
+built-up surroundings,concurrent-change strata,1–2,783_433,7,0.03508771929824561,-1.1280975879672623,236
+built-up surroundings,concurrent-change strata,1–2,783_435,3,0.006578947368421052,-1.1243954134370155,240
+built-up surroundings,concurrent-change strata,1–2,784_426,12,0.05921052631578947,-1.1644419836434785,231
+built-up surroundings,concurrent-change strata,1–2,784_427,5,0.010964912280701754,-1.1133815871927268,238
+built-up surroundings,concurrent-change strata,1–2,784_429,12,0.046052631578947366,-1.1271407447237543,231
+built-up surroundings,concurrent-change strata,1–2,784_430,12,0.05921052631578947,-1.0700605734095407,231
+built-up surroundings,concurrent-change strata,1–2,784_431,5,0.02412280701754386,-1.141776113158685,238
+built-up surroundings,concurrent-change strata,1–2,784_432,8,0.02412280701754386,-1.1236419924630272,235
+built-up surroundings,concurrent-change strata,1–2,784_433,9,0.02631578947368421,-1.1080272418598156,234
+built-up surroundings,concurrent-change strata,1–2,784_434,11,0.043859649122807015,-1.1198936796526695,230
+built-up surroundings,concurrent-change strata,1–2,784_435,3,0.006578947368421052,-1.1257550079928778,240
+built-up surroundings,concurrent-change strata,1–2,785_427,9,0.05263157894736842,-1.1547390068653476,232
+built-up surroundings,concurrent-change strata,1–2,785_428,6,0.019736842105263157,-1.1385930543158989,237
+built-up surroundings,concurrent-change strata,1–2,785_429,9,0.039473684210526314,-1.1117695625058077,234
+built-up surroundings,concurrent-change strata,1–2,785_430,12,0.05263157894736842,-1.1125303025593132,231
+built-up surroundings,concurrent-change strata,1–2,785_431,9,0.03289473684210526,-1.0916607079728788,234
+built-up surroundings,concurrent-change strata,1–2,785_432,1,0.0021929824561403508,-1.1121559668534853,242
+built-up surroundings,concurrent-change strata,1–2,785_433,2,0.0043859649122807015,-1.1205390396226391,241
+built-up surroundings,concurrent-change strata,1–2,785_434,5,0.017543859649122806,-1.1159281059002473,238
+built-up surroundings,concurrent-change strata,1–2,786_427,5,0.017543859649122806,-1.1097010046519287,237
+built-up surroundings,concurrent-change strata,1–2,786_428,2,0.010964912280701754,-1.1107804496898765,241
+built-up surroundings,concurrent-change strata,1–2,786_429,13,0.06798245614035088,-1.1090324820327808,230
+built-up surroundings,concurrent-change strata,1–2,786_430,17,0.07675438596491228,-1.0472319502606424,226
+built-up surroundings,concurrent-change strata,1–2,787_427,2,0.0043859649122807015,-1.1200801265192282,241
+built-up surroundings,concurrent-change strata,1–2,787_428,8,0.043859649122807015,-1.1595757213373727,234
+built-up surroundings,concurrent-change strata,1–2,787_429,11,0.03070175438596491,-1.115539331667493,232
+built-up surroundings,concurrent-change strata,1–2,787_430,3,0.006578947368421052,-1.1119210958244532,240
+built-up surroundings,concurrent-change strata,3–4,782_431,1,0.026490066225165563,-0.6724997957958257,49
+built-up surroundings,concurrent-change strata,3–4,783_430,2,0.052980132450331126,-0.6587216508064315,48
+built-up surroundings,concurrent-change strata,3–4,783_433,2,0.029801324503311258,-0.6523332074288323,48
+built-up surroundings,concurrent-change strata,3–4,783_435,3,0.04470198675496689,-0.6744803263565119,47
+built-up surroundings,concurrent-change strata,3–4,784_426,3,0.06788079470198675,-0.7166972632969687,47
+built-up surroundings,concurrent-change strata,3–4,784_429,3,0.06788079470198675,-0.6900565232045182,47
+built-up surroundings,concurrent-change strata,3–4,784_430,5,0.07450331125827815,-0.6474470169019835,45
+built-up surroundings,concurrent-change strata,3–4,784_431,1,0.026490066225165563,-0.6732123164629666,49
+built-up surroundings,concurrent-change strata,3–4,784_433,5,0.08609271523178808,-0.6537843328924247,45
+built-up surroundings,concurrent-change strata,3–4,784_434,2,0.029801324503311258,-0.6662025793274314,48
+built-up surroundings,concurrent-change strata,3–4,785_428,1,0.026490066225165563,-0.6875822659509703,49
+built-up surroundings,concurrent-change strata,3–4,785_429,3,0.056291390728476824,-0.6621797196313234,47
+built-up surroundings,concurrent-change strata,3–4,785_430,2,0.029801324503311258,-0.6519016575802863,48
+built-up surroundings,concurrent-change strata,3–4,785_431,2,0.052980132450331126,-0.6762640070193826,48
+built-up surroundings,concurrent-change strata,3–4,786_427,1,0.026490066225165563,-0.6646152900061505,49
+built-up surroundings,concurrent-change strata,3–4,786_429,8,0.18874172185430463,-0.6549855695404637,42
+built-up surroundings,concurrent-change strata,3–4,786_430,4,0.08278145695364239,-0.6435562964158595,46
+built-up surroundings,concurrent-change strata,3–4,787_428,1,0.014900662251655629,-0.6687016384409075,49
+built-up surroundings,concurrent-change strata,3–4,787_429,1,0.014900662251655629,-0.659524835176417,49
+built-up surroundings,concurrent-change strata,5–8,783_435,2,0.0880281690140845,-0.5921989094949197,14
+built-up surroundings,concurrent-change strata,5–8,784_431,1,0.06338028169014084,-0.5873111971962793,15
+built-up surroundings,concurrent-change strata,5–8,784_434,1,0.04401408450704225,-0.5649054345786584,15
+built-up surroundings,concurrent-change strata,5–8,785_427,1,0.06338028169014084,-0.5739214660970046,15
+built-up surroundings,concurrent-change strata,5–8,785_428,1,0.11267605633802817,-0.5781733809116655,15
+built-up surroundings,concurrent-change strata,5–8,785_430,4,0.30633802816901406,-0.6212007584049671,12
+built-up surroundings,concurrent-change strata,5–8,786_427,1,0.04401408450704225,-0.57348042867749,15
+built-up surroundings,concurrent-change strata,5–8,786_429,3,0.17077464788732394,-0.534502774244084,13
+built-up surroundings,concurrent-change strata,5–8,786_430,2,0.1073943661971831,-0.5470047444571932,14
