@@ -1,5 +1,0 @@
-Validation,R2_Holdout,RMSE_C_Holdout,MAE_C_Holdout,R2_Mean,R2_95CI,RMSE_Mean,RMSE_95CI,MAE_Mean,MAE_95CI,n_test_pixels,n_test_blocks
-"Nested GroupKFold CV (headline metric, outer-fold predictions)",,,,0.5427407507691608,0.01668360157015921,1.769270345817731,0.010289620779358705,1.4103369615557932,0.009773203398836626,27234.0,
-RandomizedSearchCV inner tuning score (NOT nested; informational only),,,,0.542690084329563,,,,,,,
-Repeated spatial-block validation,,,,0.5465604280937728,0.010683432228934914,1.760757315602341,0.010084645151331055,1.403851900387901,0.01058326416164188,,
-Single untouched spatial-block holdout (confirmatory),0.5378269163932704,1.7399905738039756,1.3752215800272074,,,,,,,5431.0,336.0

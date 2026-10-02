@@ -1,2 +1,0 @@
-Calibration slope,Calibration intercept,Mean bias (°C),Pearson r,Pearson p,Intercept CI note
-0.9852121574830868,0.8503695818749041,0.11001246413439666,0.7347081547924696,0.0,"Calibration intercept 95% CI likely spans zero because spatial block-holdout produces a slope < 1 (regression toward the mean), which numerically shifts the intercept upward to preserve overall mean agreement.  This does not indicate a systematic bias in the original predictions."
