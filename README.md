@@ -1,4 +1,3 @@
-```markdown
 # A Remote Sensing and Machine Learning Framework for Urban Greening–Energy Trade-Offs
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
@@ -136,5 +135,6 @@ See `LICENSE`.
 
 ## Contact
 
-nalmaktoum0001@stu.kau.edu.sa
-```
+**Nelly F. Almaktoum**
+
+[nalmaktoum0001@stu.kau.edu.sa](mailto:nalmaktoum0001@stu.kau.edu.sa)
