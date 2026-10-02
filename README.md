@@ -4,7 +4,7 @@
 [![XGBoost 3.4](https://img.shields.io/badge/XGBoost-3.4-EB5E28?style=flat)](https://xgboost.readthedocs.io/)
 [![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Landsat%208%20C2%20L2-4285F4?style=flat&logo=googleearth&logoColor=white)](https://earthengine.google.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](LICENSE)
-[![Version 2.0.1](https://img.shields.io/badge/version-2.0.1-informational?style=flat)](CHANGELOG.md)
+[![Version 2.0.0](https://img.shields.io/badge/version-2.0.0-informational?style=flat)](https://github.com/nelmkt/Wahaj-Framework/releases/tag/v2.0.0)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--9887--0280-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-9887-0280)
 [![Email](https://img.shields.io/badge/Email-nalmaktoum0001%40stu.kau.edu.sa-D14836?style=flat&logo=gmail&logoColor=white)](mailto:nalmaktoum0001@stu.kau.edu.sa)
 
@@ -167,7 +167,7 @@ If you use this code or these tables, please cite the repository. The paper refe
   author  = {Almaktoum, Nelly F.},
   title   = {Wahaj: A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening--Energy Trade-Offs in Desalination-Dependent Cities, with a Jeddah Case Study},
   year    = {2026},
-  version = {2.0.1},
+  version = {2.0.0},
   url     = {https://github.com/nelmkt/Wahaj-Framework}
 }
 ```
