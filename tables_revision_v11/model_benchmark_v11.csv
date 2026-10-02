@@ -1,0 +1,5 @@
+model,r2,rmse_C,mae_C,n,folds,n_blocks,features,settings,seconds,xgboost_matches_model_cv
+XGBoost,0.7952289586107377,1.1841778008221235,0.9030751686450753,19650,5,73,ndvi ndbi elev emis coast_km lon lat,"n_estimators=600, max_depth=6, learning_rate=0.05, subsample=0.8, colsample_bytree=0.8, min_child_weight=5, reg_lambda=1.0 (code/src/fw_config.py:54-55)",12.3,True
+Gradient boosting (scikit-learn),0.773325499507219,1.2459022769824748,0.9583973484304757,19650,5,73,ndvi ndbi elev emis coast_km lon lat,"n_estimators=300, max_depth=3, learning_rate=0.1, subsample=0.8",63.0,True
+Random forest,0.7748403552003325,1.2417321431041028,0.9430597858494443,19650,5,73,ndvi ndbi elev emis coast_km lon lat,"n_estimators=300, min_samples_leaf=5",50.9,True
+Linear regression,0.710954602121477,1.4069079229508306,1.0992752871216585,19650,5,73,ndvi ndbi elev emis coast_km lon lat,ordinary least squares,0.1,True
