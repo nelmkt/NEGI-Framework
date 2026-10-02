@@ -53,4 +53,5 @@ The author reported **62 passing tests and a passing claims audit** on the then-
 
 ## Citation, licence and contact
 
-The staged [`CITATION.cff`](github_release_v11c/CITATION.cff) identifies the software and author; add the final paper reference and DOI only when available. **Licence needs reconciliation before publication:** the staged citation metadata says MIT, but the full package has no matching licence file at its root. Do not infer redistribution terms from the badge in an earlier README draft. Contact: [Nelly F. Almaktoum](mailto:nalmaktoum0001@stu.kau.edu.sa).
+The staged [`CITATION.cff`](github_release_v11c/CITATION.cff) identifies the software and author; add the final paper reference and DOI only when available. **Licence needs reconciliation before publication:** the staged citation metadata says MIT, but the full package has no matching licence file at its root. Do not infer redistribution terms from the badge in an earlier README draft.
+Contact: [Nelly F. Almaktoum](mailto:nalmaktoum0001@stu.kau.edu.sa).
