@@ -221,3 +221,12 @@ python -m pytest code/src -p no:cacheprovider
 ```
 
 The author reports 62 tests passing on the full package (2026-10-02). In this release `tables/imagery_sampling_key_v7.csv` is withheld, so two tests are expected to fail here (see README.md).
+
+## Tables added in release 2.1.0
+
+| Table | Command (from the repository root, panels decompressed) |
+|---|---|
+| `tables_revision_v11/model_benchmark_v11.csv` | `python code/src/benchmark_models_v11.py .` |
+| `tables_revision_v11/tradeoff_illustration_v11.csv` | `python code/src/tradeoff_illustration_v11.py .` |
+
+Both scripts refuse to overwrite an existing table; work in a copy or remove the saved file first. The benchmark stops if its XGBoost row does not reproduce `tables/model_cv.csv`.

@@ -4,7 +4,7 @@
 [![XGBoost 3.4](https://img.shields.io/badge/XGBoost-3.4-EB5E28?style=flat)](https://xgboost.readthedocs.io/)
 [![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Landsat%208%20C2%20L2-4285F4?style=flat&logo=googleearth&logoColor=white)](https://earthengine.google.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](LICENSE)
-[![Version 2.0.0](https://img.shields.io/badge/version-2.0.0-informational?style=flat)](https://github.com/nelmkt/Wahaj-Framework/releases/tag/v2.0.0)
+[![Version 2.1.0](https://img.shields.io/badge/version-2.1.0-informational?style=flat)](https://github.com/nelmkt/Wahaj-Framework/releases/tag/v2.1.0)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--9887--0280-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-9887-0280)
 [![Email](https://img.shields.io/badge/Email-nalmaktoum0001%40stu.kau.edu.sa-D14836?style=flat&logo=gmail&logoColor=white)](mailto:nalmaktoum0001@stu.kau.edu.sa)
 
@@ -34,11 +34,13 @@ Wahaj is the framework described in the paper. It asks whether an XGBoost model 
 | Result | Saved value | Source and limit |
 | --- | --- | --- |
 | XGBoost absolute-LST prediction | Spatial GroupKFold R² **0.795**, RMSE **1.184 °C**, MAE **0.903 °C**, on **19,650** non-greened cells | [`model_cv.csv`](tables/model_cv.csv). Skill on LST levels does **not** validate predicted greening effects. |
+| Benchmark of regressors | Same cells, predictors and folds: XGBoost R² **0.795**, random forest **0.775**, gradient boosting **0.773**, linear regression **0.711** | [`model_benchmark_v11.csv`](tables_revision_v11/model_benchmark_v11.csv). Fixed, untuned settings: the comparison ranks these settings, not the methods in general. |
 | Primary matched outside-area slope | **−1.181 °C per greened pixel** among **1,006** matched cells | [`headline_block_v8.csv`](tables/headline_block_v8.csv), row `all`. A zero-intercept, dose-weighted summary in sampled, often contiguous blocks, not the marginal effect of a new isolated pixel. |
 | Leverage concentration | One spatial block carries **55.7%** of pooled squared-dose leverage | Same table, row `all`. Bootstrap and jackknife coverage is unproven. |
 | Small-patch own-only slope | **−1.925 °C per own pixel** among **419** primary matched outside cells with 1–2 greened pixels | Same table, row `1–2`; [algebraic check](tables_revision_v11/own_only_vs_joint_identity_v11.csv). The own-only coefficient absorbs co-varying neighbour greening within the specified regression (joint own coefficients −1.036 to −0.988); it is not evidence of a larger physical effect per pixel. |
 | Model B outside support | **14/744** cells pass the feature-space screen, including **0/75** fully greened cells | [`test_support_counts.csv`](tables/test_support_counts.csv), outside rows. This is the **narrower concurrent-change sensitivity**, not the 1,006-cell primary population. |
 | Model B minus measured outside contrast | **+1.01 to +7.24 °C** across dose classes | [`test_by_dose.csv`](tables/test_by_dose.csv), outside Model B rows. The gap grows with dose; the model does not corroborate that outside gradient. |
+| Illustrative NEGI on measured contrasts | Cost exponent 0.5: **−0.127, −0.203, −0.213, 0**; linear cost: **+0.110, +0.034, −0.078, 0** for the four outside dose classes | [`tradeoff_illustration_v11.csv`](tables_revision_v11/tradeoff_illustration_v11.csv). An illustration on different cells, not a released index value; the sign is decided by the assumed cost shape. |
 
 The 1,006-cell matched estimate and the 744-cell model diagnostics use different treated populations. They must not be read as one validation result. The small-patch exposure analyses are descriptive: the available data do not separate thermal-pixel blur, edge effects, neighbour cooling and neighbourhood confounding. The within-90 m ordering is **not resolved**.
 
@@ -46,7 +48,7 @@ The 1,006-cell matched estimate and the 744-cell model diagnostics use different
 
 *Model test ([`fig3_model_test.png`](figures_png/fig3_model_test.png)). Panel a: predicted against observed summer LST with areas held out. Panels b and c: measured cooling and the two model versions by dose class. Outside the built-up area, Model B falls further short of the measured contrast as the dose rises.*
 
-Because the model failed these checks, the framework released no model-based scenario and **no value of the Normalized Environmental Gain Index (NEGI) is reported**.
+Because the model failed these checks, the framework released no model-based scenario and **no model-based value of the Normalized Environmental Gain Index (NEGI)**. The only NEGI numbers are the illustration on measured contrasts in the last row.
 
 ## Repository structure
 
@@ -65,7 +67,7 @@ code/
   negi_original/     earlier index module (NEGI definitions; not run for the paper)
 
 tables/              result tables (CSV, JSON)
-tables_revision_v11/ two algebraic checks added for the paper
+tables_revision_v11/ four tables added for the paper (two algebraic checks, model benchmark, trade-off illustration)
 figures_png/         figures (PNG)
 figures_pdf/         figures (PDF)
 
@@ -167,7 +169,7 @@ If you use this code or these tables, please cite the repository. The paper refe
   author  = {Almaktoum, Nelly F.},
   title   = {Wahaj: A Remote Sensing and Machine Learning Framework for Evaluating Urban Greening--Energy Trade-Offs in Desalination-Dependent Cities, with a Jeddah Case Study},
   year    = {2026},
-  version = {2.0.0},
+  version = {2.1.0},
   url     = {https://github.com/nelmkt/Wahaj-Framework}
 }
 ```

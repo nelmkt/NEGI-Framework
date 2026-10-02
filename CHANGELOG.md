@@ -1,5 +1,19 @@
 # Changelog
 
+## 2.1.0 (2 October 2026), branch `v11-framework-ml`, release `v2.1.0`
+
+Added
+
+- `tables_revision_v11/model_benchmark_v11.csv` and `code/src/benchmark_models_v11.py`: XGBoost, random forest, gradient boosting and linear regression scored on the same cells, predictors and spatial folds. The XGBoost row reproduces `tables/model_cv.csv`.
+- `tables_revision_v11/tradeoff_illustration_v11.csv` and `code/src/tradeoff_illustration_v11.py`: NEGI evaluated on measured contrasts for illustration, and the hypothetical irrigation energy per degree of measured cooling.
+
+Changed
+
+- Root `requirements.txt` records pandas 3.0.3, the version in the author's environment.
+- `docs/Wahaj_Manuscript_numeric_audit.md` is the audit of the paper that includes the two additions.
+
+No existing code, table or figure changed.
+
 ## 2.0.0 (2 October 2026), branch `v11-framework-ml`, release `v2.0.0`
 
 Reorganised the repository around the framework described in the paper. The framework is named Wahaj and the repository `Wahaj-Framework`; NEGI remains the name of the index.
