@@ -1,3 +1,0 @@
-subset,n_cells,n_blocks,baseline_lst_mean_C,baseline_lst_sd_C,effect_at_mean_lst_px_C,interaction_per_baseline_sd_px_C,interaction_lo_C,interaction_hi_C,n_boot_valid,note
-all 0.5-SD caliper cells,95,19,53.23203034736842,1.5931620672735345,-0.7380411298467277,-0.10619097103436372,-0.2826972934201694,0.19261330252640746,2000,Exploratory contrast association; dose times centered baseline LST; block bootstrap
-"0.5-SD caliper, 1–2 pixels",60,18,53.305990775000005,1.8191734613699895,-1.2384689391342625,0.03658356147883931,-0.4772696429618462,0.3934865201783262,2000,Exploratory contrast association; dose times centered baseline LST; block bootstrap

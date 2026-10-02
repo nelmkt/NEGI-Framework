@@ -1,5 +1,0 @@
-setting,control_rule,estimate_C,lo_C,hi_C,n_treated,n_treated_matched,n_controls_matched,n_strata,n_boot_requested,n_boot_valid,n_boot_missing
-outside the built-up area,stable-surface controls,-1.1805706405801224,-1.2519858900832441,-0.9252715933911743,1014,1006,6263,31,2000,2000,0
-outside the built-up area,all eligible controls,-1.178882389596365,-1.25136814928003,-0.9191008697502517,1014,1006,6314,31,2000,2000,0
-built-up surroundings,stable-surface controls,-0.782840102139666,-0.9159784976492266,-0.6590442865416002,319,313,3004,47,2000,2000,0
-built-up surroundings,all eligible controls,-0.7127695569257961,-0.844678471603971,-0.593143626630356,319,313,4496,47,2000,2000,0

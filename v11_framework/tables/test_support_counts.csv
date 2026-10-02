@@ -1,9 +1,0 @@
-setting,pixels,n_matched,n_supported,support_share,n_supported_blocks
-outside the built-up area,1–2,355,14,0.03943661971830986,10
-outside the built-up area,3–4,147,0,0.0,0
-outside the built-up area,5–8,167,0,0.0,0
-outside the built-up area,9,75,0,0.0,0
-built-up surroundings,1–2,243,58,0.23868312757201646,25
-built-up surroundings,3–4,50,2,0.04,1
-built-up surroundings,5–8,16,0,0.0,0
-built-up surroundings,9,1,0,0.0,0
