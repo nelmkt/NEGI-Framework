@@ -130,6 +130,13 @@ Descriptions of scripts are the first sentence of each script's own docstring. D
 | `sio_irrigation_2020_2022.csv` | irrigation context table, earlier build |
 | `sio_irrigation_2020_2022_v8.csv` | irrigation context table rebuilt from the two workbooks |
 
+### 7. Added for the paper (release 2.1.0)
+
+| File | What it does |
+|---|---|
+| `benchmark_models_v11.py` | Scores XGBoost, random forest, gradient boosting and linear regression on the same cells, predictors and spatial folds. |
+| `tradeoff_illustration_v11.py` | Evaluates NEGI on measured contrasts for illustration and collects the hypothetical irrigation energy per degree of measured cooling. |
+
 ## code/gee
 
 ### Earth Engine export scripts
@@ -348,4 +355,5 @@ Descriptions of scripts are the first sentence of each script's own docstring. D
 |---|---|
 | `leverage_share_check_v11.csv` | dose-squared leverage shares recomputed from cell data (see `docs/MATH_CHECK_V11.md`) |
 | `own_only_vs_joint_identity_v11.csv` | own-only slope reproduced from joint-ring coefficients, five specifications |
-
+| `model_benchmark_v11.csv` | spatially blocked skill of four regressors on Model B's training set |
+| `tradeoff_illustration_v11.csv` | illustrative NEGI on measured contrasts and hypothetical irrigation energy per degree, by dose class |
