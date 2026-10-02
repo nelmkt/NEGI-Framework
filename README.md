@@ -1,4 +1,5 @@
 # A Remote Sensing and Machine Learning Framework for Urban Greening–Energy Trade-Offs
+ ![Python 3.12](https://shields.io)
 
 Code, data exports and result tables for the paper
 
