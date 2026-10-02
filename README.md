@@ -6,12 +6,6 @@ Code, saved Earth Engine exports, figures and result tables for the Jeddah case 
 
 The package asks whether an XGBoost model that predicts land surface temperature (LST) can also predict the *change* associated with greening. It compares model diagnostics with matched satellite contrasts, then illustrates the water and energy implied by assumed irrigation. **Jeddah is the only city analysed.** This is neither a measured irrigation ledger nor a validated model for selecting a new greening site.
 
-## Start here
-
-1. Read the [manuscript copy with the portability subsection](manuscript/MANUSCRIPT_ML_REFERENCED_PORTABILITY_V11.md) for the claims and limits.
-2. Use the [file guide](github_release_v11c/docs/FILE_GUIDE.md) to locate scripts and tables, and the [data guide](github_release_v11c/docs/DATA.md) for panel columns and sources.
-3. Trace printed values through the [numeric audit](github_release_v11c/docs/NUMERIC_AUDIT_FRAMEWORK_V11B.md) and the [reproduction guide](github_release_v11c/REPRODUCE.md). The [portability audit](manuscript/PORTABILITY_CODE_AUDIT_V11.md) identifies settings that would have to change for another city.
-
 ## Results and their populations
 
 | Result | Saved value | Source and limit |
